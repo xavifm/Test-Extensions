@@ -35,5 +35,6 @@
         public $firstWakeUp;
         public $appetiteInMorning;
         public $insomniaIntensity;
+        public $lifeSatisfaction;
     }
 ?>
