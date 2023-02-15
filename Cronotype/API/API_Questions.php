@@ -35,6 +35,6 @@
         public $firstWakeUp = "Cuando te levantas por la mañana, ¿estás ...";
         public $appetiteInMorning = "¿Cómo describiría su apetito dentro de la media hora de despertar?";
         public $insomniaIntensity = "¿Con qué frecuencia sufre de síntomas de insomnio?";
-        public $lifeSatisfaction = "How would you describe your overall life satisfaction?";
+        public $lifeSatisfaction = "¿Cómo describiría su satisfacción general con la vida?";
     }
 ?>
