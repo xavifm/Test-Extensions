@@ -5,12 +5,12 @@
         public $age;
         public $soundsWakeMeUp; //bool
         public $snoreWhileSleeping; //bool
-        public $snoreWhileSleeping_often; 
+        public $snoreWhileSleeping_often; //only if you snore
             //0: Every day.
             //1: 3-4 times a week.
             //2: 1-2 times a week.
             //3: 1-2 times a month.
-        public $snoringType; 
+        public $snoringType; //only if you snore
             //0: louder than breathing.
             //1: as loud as talking.
             //2: very loud.

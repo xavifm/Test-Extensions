@@ -5,8 +5,8 @@
         public $age = "Cuál es tu rango de edad?";
         public $soundsWakeMeUp = "El más mínimo sonido o luz puede mantenerme despierto o despertarme.";
         public $snoreWhileSleeping = "¿Roncas mientras duermes?";
-        public $snoreWhileSleeping_often = "";
-        public $snoringType = "";
+        public $snoreWhileSleeping_often = "¿Con qué frecuencia roncas?";
+        public $snoringType = "Describa sus ronquidos.";
         public $foodPassion = "La comida no es una gran pasión para mí.";
         public $wakeUpBeforeMyAlarmRings = "Normalmente me despierto antes de que suene la alarma.";
         public $sleepOnPlanes = "No puedo dormir bien en los aviones, incluso con una máscara para los ojos y tapones para los oídos.";
