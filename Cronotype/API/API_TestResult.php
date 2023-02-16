@@ -43,6 +43,8 @@
             //Every question response will increment points from every type.
             //The bigger score is gonna show up
             //Test points zone
+
+            //Bool
             
             if($responsesData->soundsWakeMeUp == true) 
                 $dolphinPoints++;
@@ -52,6 +54,10 @@
                 $bearPoints++;
                 $wolfPoints++;
             }
+
+            //______________________________________________________________
+
+            //SnoreQuestion
 
             if($responsesData->snoreWhileSleeping == true) 
             {
@@ -92,6 +98,10 @@
                 $dolphinPoints++;
             }
 
+            //______________________________________________________________
+
+            //Bool
+
             if($responsesData->foodPassion == true) 
             {
                 $lionPoints++;
@@ -102,6 +112,10 @@
                 $wolfPoints++;
                 $dolphinPoints++;
             }
+
+            //______________________________________________________________
+
+            //Bool
 
             if($responsesData->wakeUpBeforeMyAlarmRings == true) 
             {
@@ -114,6 +128,10 @@
                 $dolphinPoints++;
             }
 
+            //______________________________________________________________
+
+            //Bool
+
             if($responsesData->sleepOnPlanes == true) 
             {
                 $wolfPoints++;
@@ -125,6 +143,10 @@
                 $bearPoints++;
             }
 
+            //______________________________________________________________
+
+            //Bool
+
             if($responsesData->irritableDueFatigue == true) 
             {
                 $wolfPoints++;
@@ -135,6 +157,10 @@
                 $lionPoints++;
                 $bearPoints++;
             }
+
+            //______________________________________________________________
+
+            //Bool
 
             if($responsesData->worriesInSmallDetails == true) 
             {
@@ -147,6 +173,10 @@
                 $bearPoints++;
             }
 
+            //______________________________________________________________
+
+            //Bool
+
             if($responsesData->irritableDueFatigue == true) 
             {
                 $dolphinPoints++;
@@ -157,6 +187,10 @@
                 $bearPoints++;
                 $wolfPoints++;
             }
+
+            //______________________________________________________________
+
+            //Bool
 
             if($responsesData->anxiousAboutMyGrades == true) 
             {
@@ -169,6 +203,10 @@
                 $dolphinPoints++;
             }
 
+            //______________________________________________________________
+
+            //Bool
+
             if($responsesData->SleepRumiation == true) 
             {
                 $wolfPoints++;
@@ -180,6 +218,10 @@
                 $bearPoints++;
             }
 
+            //______________________________________________________________
+
+            //Bool
+
             if($responsesData->perfectionist == true) 
             {
                 $dolphinPoints++;
@@ -190,6 +232,8 @@
                 $lionPoints++;
                 $bearPoints++;
             }
+
+            //______________________________________________________________
 
             //Multichoice
 
