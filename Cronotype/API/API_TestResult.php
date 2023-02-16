@@ -1,5 +1,5 @@
 <?php 
-    include 'API_Responses.php';
+    require_once 'API_Responses.php';
 
     class TestResult 
     {
@@ -8,19 +8,40 @@
         public $wolfPoints; //3
         public $dolphinPoints; //4
 
+        public function ReturnBiggestResult($_lionPoints, $_bearPoints, $_wolfPoints, $_dolphinPoints) 
+        {
+            $elementsList = array("lion" => $_lionPoints, "bear" => $_bearPoints, "wolf" => $_wolfPoints, "dolphin" => $_dolphinPoints);
+            $elementsListNameSearch = array("lion" => $_lionPoints, "bear" => $_bearPoints, "wolf" => $_wolfPoints, "dolphin" => $_dolphinPoints);
+            sort($elementsList);
+
+            $lastElement = 0;
+            
+            print_r($elementsListNameSearch);
+
+            foreach($elementsList as $element)
+            {
+                $lastElement = $element;
+            }
+
+            foreach(array_keys($elementsListNameSearch) as $element)
+            {
+                if($elementsListNameSearch[$element] == $lastElement)
+                    return $element;
+            }
+
+            return "ERROR!!!!!";
+        }
+
         public function CalculateResult(ResponsesData $responsesData) 
         {
-            $lionPoints = 0;
+            $lionPoints = 50;
             $bearPoints = 0;
-            $wolfPoints = 0;
-            $dolphinPoints = 0;
+            $wolfPoints = 200;
+            $dolphinPoints = 20;
 
             //Calculate our test result
             //Every question response will increment points from every type.
             //The bigger score is gonna show up
-
-            $testResult = "";
-
             //Test points zone
             
             if($responsesData->soundsWakeMeUp == true) 
@@ -564,7 +585,7 @@
                                                 
             //______________________________________________________________
 
-            return testResult;
+            return $this->ReturnBiggestResult($lionPoints, $bearPoints, $wolfPoints, $dolphinPoints);
         }
     }
 ?>

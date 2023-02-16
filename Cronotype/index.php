@@ -9,6 +9,8 @@
 
     <?php 
         include 'API/CronotypeAPI.php';
+        $api = new CronotypeAPI();
+        print_r($api->GetTestResult());
     ?>
 
 </html>
