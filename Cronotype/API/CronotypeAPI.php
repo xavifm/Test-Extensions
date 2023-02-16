@@ -1,30 +1,20 @@
 <?php 
     include 'API_Questions.php';
     include 'API_Responses.php';
+    include 'API_TestResult.php';
 
     class CronotypeAPI 
     {
-        private $questionsData = new QuestionsData();
-        private $responsesData = new ResponsesData();
+        private $questionsData;
+        private $responsesData;
+        private $testResult;
 
-        private $bearPoints = 0;
-        private $lionPoints = 0;
-        private $wolfPoints = 0;
-        private $dolphinPoints = 0;
-
-        private $cronotypeResult;
-
-        function CalculateResult() 
+        public function GetTestResult () 
         {
-            //Calculate our test result
-            //Every question response will increment points from every type.
-            //The bigger score is gonna show up
-        }
-
-        function GetTestResult () 
-        {
-            $this->CalculateResult();
-            return $this->cronotypeResult;
+            $responsesData = new ResponsesData();
+            $questionsData = new QuestionsData();
+            $testResult = new TestResult();
+            return $testResult->CalculateResult($responsesData);
         }
     }
 ?>
