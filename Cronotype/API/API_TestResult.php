@@ -34,10 +34,10 @@
 
         public function CalculateResult(ResponsesData $responsesData) 
         {
-            $lionPoints = 50;
+            $lionPoints = 0;
             $bearPoints = 0;
-            $wolfPoints = 200;
-            $dolphinPoints = 20;
+            $wolfPoints = 0;
+            $dolphinPoints = 0;
 
             //Calculate our test result
             //Every question response will increment points from every type.
