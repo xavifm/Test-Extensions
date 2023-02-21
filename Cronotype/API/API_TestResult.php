@@ -46,7 +46,7 @@
 
             //Bool
             
-            if($responsesData->soundsWakeMeUp == true) 
+            if($responsesData->soundsWakeMeUp == 0) 
                 $dolphinPoints++;
             else
             {
@@ -59,7 +59,7 @@
 
             //SnoreQuestion
 
-            if($responsesData->snoreWhileSleeping == true) 
+            if($responsesData->snoreWhileSleeping == 0) 
             {
                 $lionPoints++;
                 $bearPoints++;
@@ -102,7 +102,7 @@
 
             //Bool
 
-            if($responsesData->foodPassion == true) 
+            if($responsesData->foodPassion == 0) 
             {
                 $lionPoints++;
                 $bearPoints++;
@@ -117,7 +117,7 @@
 
             //Bool
 
-            if($responsesData->wakeUpBeforeMyAlarmRings == true) 
+            if($responsesData->wakeUpBeforeMyAlarmRings == 0) 
             {
                 $lionPoints++;
             }
@@ -132,7 +132,7 @@
 
             //Bool
 
-            if($responsesData->sleepOnPlanes == true) 
+            if($responsesData->sleepOnPlanes == 0) 
             {
                 $wolfPoints++;
                 $dolphinPoints++;
@@ -147,7 +147,7 @@
 
             //Bool
 
-            if($responsesData->irritableDueFatigue == true) 
+            if($responsesData->irritableDueFatigue == 0) 
             {
                 $wolfPoints++;
                 $dolphinPoints++;
@@ -162,7 +162,7 @@
 
             //Bool
 
-            if($responsesData->worriesInSmallDetails == true) 
+            if($responsesData->worriesInSmallDetails == 0) 
             {
                 $dolphinPoints++;
             }
@@ -177,7 +177,7 @@
 
             //Bool
 
-            if($responsesData->irritableDueFatigue == true) 
+            if($responsesData->irritableDueFatigue == 0) 
             {
                 $dolphinPoints++;
             }
@@ -192,7 +192,7 @@
 
             //Bool
 
-            if($responsesData->anxiousAboutMyGrades == true) 
+            if($responsesData->anxiousAboutMyGrades == 0) 
             {
                 $lionPoints++;
                 $bearPoints++;
@@ -207,7 +207,7 @@
 
             //Bool
 
-            if($responsesData->SleepRumiation == true) 
+            if($responsesData->SleepRumiation == 0) 
             {
                 $wolfPoints++;
                 $dolphinPoints++;
@@ -222,7 +222,7 @@
 
             //Bool
 
-            if($responsesData->perfectionist == true) 
+            if($responsesData->perfectionist == 0) 
             {
                 $dolphinPoints++;
             }
