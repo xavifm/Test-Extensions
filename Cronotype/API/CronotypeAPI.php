@@ -25,8 +25,8 @@
         {
             $responsesData = new ResponsesData();
 
-            $responsesData->gender = 0;
-            $responsesData->age = 0;
+            $responsesData->gender = $responsesArray[0];
+            $responsesData->age = $responsesArray[1];
             $responsesData->soundsWakeMeUp = $responsesArray[2];
             $responsesData->snoreWhileSleeping = $responsesArray[3];
             $responsesData->snoreWhileSleeping_often = $responsesArray[4];
