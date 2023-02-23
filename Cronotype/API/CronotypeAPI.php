@@ -1,4 +1,5 @@
 <?php 
+    ini_set('display_errors', 0);
     include 'API_Questions.php';
     include 'API_Responses.php';
     include 'API_TestResult.php';

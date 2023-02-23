@@ -7,8 +7,6 @@
     </head>
 
     <body>
-        Hi!
-    </body>
 
     <?php 
         include 'API/CronotypeAPI.php';
@@ -30,14 +28,14 @@
             const responsesFromTest = [];
         </script>
 
-        <form action="" method="post">
+        <form name="cronotype" action="" method="post" style='text-align:center; vertical-align:middle'>
 
         <?php
 
         foreach($questionsArray as $question) 
         {
             ?>
-                <h5 class="card-title"> <?php echo $question ?> </h5>
+                <h5 class="card-title" style='text-align:center; vertical-align:middle; font-size: 23px; font-weight: bolder;'> <?php echo $question ?> </h5>
 
                 <script>
                     responsesArrayData.push(<?php echo $index ?>);
@@ -50,8 +48,8 @@
                 foreach($responseArray[$index] as $response) 
                 { 
                     ?>
-                        <div class="form-check">
-                            <input class="form-check-input" onclick="SetOption( <?php echo $index ?>, <?php echo $index_2 ?>)" type="radio" name="<?php echo $question ?>" id="<?php echo $response ?>" value="option<?php echo $index_2 ?>">
+                        <div class="form-check" style='text-align:center; vertical-align:middle; font-size: 20px;'>
+                            <input class="form-check-input" style="width: 2rem;height: 2rem;" onclick="SetOption( <?php echo $index ?>, <?php echo $index_2 ?>)" type="radio" name="<?php echo $question ?>" id="<?php echo $response ?>" value="option<?php echo $index_2 ?>">
                             <label class="form-check-label" for="<?php echo $response ?>">
                                 <?php echo $response ?>
                             </label>
@@ -77,8 +75,16 @@
                 }
 
                 $index++;
+
+                ?>
+                    <hr class="mt-1 mb-1"/>
+                <?php
         }
     ?>
+
+    <p id="points"></p>
+    <br>
+    <p id="testResult"></p>
 
     <br>
 
@@ -94,9 +100,16 @@
                 type: 'post',
                 dataType: 'text',
                 data: { "GetTestResult": "true", "ResponsesFromTest": responsesFromTest },
-                success: function(response) { console.log(responsesFromTest); console.log(response); }
+                success: function(response) { 
+                    console.log(responsesFromTest); 
+                    console.log(response); 
+                    document.getElementById("testResult").innerHTML = response;
+                    //document.getElementById("points").innerHTML = responsesFromTest;
+                }
             });
         }
     </script>
+
+    </body>
 
 </html>
