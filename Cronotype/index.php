@@ -95,6 +95,12 @@
     <script>
         function GetOutput() 
         {
+            for(var index = 0 ; index < <?php echo $size ?> ; index++)
+            {
+                if(responsesFromTest[index] == null)
+                    return alert("Faltan preguntas para rellenar")
+            }
+
             $.ajax({
                 url: 'API/CronotypeAPI.php',
                 type: 'post',
@@ -104,7 +110,6 @@
                     console.log(responsesFromTest); 
                     console.log(response); 
                     document.getElementById("testResult").innerHTML = response;
-                    //document.getElementById("points").innerHTML = responsesFromTest;
                 }
             });
         }
