@@ -103,7 +103,7 @@
         $responseArray = $api->GetResponsesArray();
 
         $index = 0;
-        $size = 34;
+        $size = sizeof($questionsArray);
 
         ?>
 
