@@ -240,7 +240,7 @@
 
         function GetOutput() 
         {
-            for(var index = 0 ; index < <?php echo $size ?> ; index++)
+            for(var index = 0 ; index < <?php echo $size - 2 ?> ; index++)
             {
                 if(responsesFromTest[index] == null)
                     return alert("Faltan preguntas para rellenar")
