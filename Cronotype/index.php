@@ -84,7 +84,8 @@
                         </div><div class="ans ml-2">
         
             <?php 
-                for ($questionIndex = 0; $questionIndex <= 10; $questionIndex++) 
+                $questionListSize = 15;
+                for ($questionIndex = 0; $questionIndex <= $questionListSize; $questionIndex++) 
                 {
                     ?> 
                         <label class="radio" id="label<?php echo $questionIndex ?>"> <input type="radio" onclick="SetOption(questionsIndex, <?php echo $questionIndex ?>)" name="question" id="res<?php echo $questionIndex ?>" value="option"> <span> <p id="response<?php echo $questionIndex ?>"> </p> </span> </label> 
@@ -193,7 +194,7 @@
             if(_index <= 0) 
                 lastQuestion.style.display = "none";
 
-            for (var _index2 = 0; _index2 < 11; _index2++) 
+            for (var _index2 = 0; _index2 < <?php echo $questionListSize+1 ?>; _index2++) 
             {
                 var checkItem = document.getElementById("label" + String(_index2));
                 var checkElement = document.getElementById("res" + String(_index2));
