@@ -36,7 +36,7 @@
     }
 
     .ans {
-    margin-left: 300px !important;
+    text-align: center;
     }
 
     .btn:focus {
@@ -61,9 +61,10 @@
 
     <body>
 
-    <form name="cronotype" id="form" action="" method="post">
-
+    <div class="col-12 col-md-12">
     <div class="container mt-5">
+
+        <form name="cronotype" id="form" action="" method="post">
 
         <hr class="d-flex justify-content-center row"/>
 
@@ -91,23 +92,27 @@
                 }
             ?>
 
+            
+            </form>
+
             </div>
-        </div>
-        </div>
-        </div>
-        </div>
+            </div>
+            </div>
+            </div>
 
-    </form>
+            <div class="col-md-10 col-lg-10" style = "position:relative; left:0%; top:100%; background-color:white;">
 
-    <div class="col-12 col-md-12" style = "position:absolute; left:0%; top:85%; background-color:white;">
-
-    <div class="text-center">
-            <button type="button" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;' id="LastQuestion" name="submit" class="btn btn-primary" onclick="LastQuestion();" ><</button>
-            <button type="button" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;' id="NextQuestion" name="submit" class="btn btn-primary" onclick="NextQuestion();" >></button>
-            <button type="button" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;' id="SeeTestResult" name="submit" class="btn btn-primary" onclick="GetOutput();" >See result</button>
-        </div>
-    <br>
-    <p class="text-center" id="testResult" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;'></p>
+            <div class="text-center">
+                    <button type="button" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;' id="LastQuestion" name="submit" class="btn btn-primary" onclick="LastQuestion();" ><</button>
+                    <button type="button" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;' id="NextQuestion" name="submit" class="btn btn-primary" onclick="NextQuestion();" >></button>
+                    <button type="button" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;' id="SeeTestResult" name="submit" class="btn btn-primary" onclick="GetOutput();" >See result</button>
+            </div>
+            <br>
+            <p class="text-center" id="testResult" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;'></p>
+            </div>
+            </div>
+            </div>
+            </div>
 
     <br>
 
