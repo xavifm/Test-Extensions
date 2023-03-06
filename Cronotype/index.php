@@ -1,3 +1,56 @@
+<style>
+
+    body{
+        background-color:#eee;
+    }
+
+    label.radio {
+    cursor: pointer;
+    }
+
+    label.radio input {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+    }
+
+    label.radio span {
+    padding: 4px 0px;
+    border: 1px solid blue;
+    display: inline-block;
+    color: black;
+    width: 500px;
+    text-align: center;
+    
+    border-radius: 3px;
+    margin-top: 7px;
+    text-transform: uppercase;
+    }
+
+    label.radio input:checked + span {
+    border-color: blue;
+    background-color: blue;
+    color: #fff;
+    }
+
+    .ans {
+    margin-left: 300px !important;
+    }
+
+    .btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+    }
+
+    .btn:active {
+    outline: 0 !important;
+    box-shadow: none !important;
+    }
+
+</style>
+
 <html>
     <head>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
@@ -8,75 +61,41 @@
 
     <body>
 
-    <form name="cronotype" id="form" action="" method="post" style='text-align:center; vertical-align:middle'>
+    <form name="cronotype" id="form" action="" method="post">
 
-    <div class="col-12 col-md-12">
+    <div class="container mt-5">
 
-        <hr class="mt-1 mb-1"/>
+        <hr class="d-flex justify-content-center row"/>
 
-        <h5 class="card-title" style='text-align:left; vertical-align:middle; font-size: 43px; font-weight: bolder;'> <p id="question"> </p> </h5> 
+        <div class="col-md-10 col-lg-10">
+
+        <div class="border">
+
+            <div class="question bg-white p-3 border-bottom">
+                <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                    <h4>Descubre tu Cronotipo</h4><span>(0 de ??)</span></div>
+            </div>
+
+            <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row align-items-center question-title">
+                            <h3 class="text-danger">Pregunta:</h3>
+                            <h5 class="mt-1 ml-2"><p id="question"> </p></h5>
+                        </div><div class="ans ml-2">
         
-        <div class="form-check" style='text-align:center; text-align:left; font-size: 42px;'>
-        <input class="form-check-input" style="width: 5rem;height: 5rem;" onclick="SetOption(questionsIndex, 0)" type="radio" name="question1" id="res0" value="option">
-        <label class="form-check-label" for="response">
-            <p id="response0"> </p>
-        </label>
-        </div> 
+            <?php 
+                for ($questionIndex = 0; $questionIndex <= 10; $questionIndex++) 
+                {
+                    ?> 
+                        <label class="radio" id="label<?php echo $questionIndex ?>"> <input type="radio" onclick="SetOption(questionsIndex, <?php echo $questionIndex ?>)" name="question" id="res<?php echo $questionIndex ?>" value="option"> <span> <p id="response<?php echo $questionIndex ?>"> </p> </span> </label> 
+                    <?php
+                }
+            ?>
 
-        <div class="form-check" style='text-align:center; text-align:left; font-size: 42px;'>
-        <input class="form-check-input" style="width: 5rem;height: 5rem;" onclick="SetOption(questionsIndex, 1)" type="radio" name="question1" id="res1" value="option">
-        <label class="form-check-label" for="response">
-            <p id="response1"> </p>
-        </label>
-        </div> 
-
-        <div class="form-check" style='text-align:center; text-align:left; font-size: 42px;'>
-        <input class="form-check-input" style="width: 5rem;height: 5rem;" onclick="SetOption(questionsIndex, 2)" type="radio" name="question1" id="res2" value="option">
-        <label class="form-check-label" for="response">
-            <p id="response2"> </p>
-        </label>
-        </div> 
-
-        <div class="form-check" style='text-align:center; text-align:left; font-size: 42px;'>
-        <input class="form-check-input" style="width: 5rem;height: 5rem;" onclick="SetOption(questionsIndex, 3)" type="radio" name="question1" id="res3" value="option">
-        <label class="form-check-label" for="response">
-            <p id="response3"> </p>
-        </label>
-        </div> 
-
-        <div class="form-check" style='text-align:center; text-align:left; font-size: 42px;'>
-        <input class="form-check-input" style="width: 5rem;height: 5rem;" onclick="SetOption(questionsIndex, 4)" type="radio" name="question1" id="res4" value="option">
-        <label class="form-check-label" for="response">
-            <p id="response4"> </p>
-        </label>
-        </div> 
-
-        <div class="form-check" style='text-align:center; text-align:left; font-size: 42px;'>
-        <input class="form-check-input" style="width: 5rem;height: 5rem;" onclick="SetOption(questionsIndex, 5)" type="radio" name="question1" id="res5" value="option">
-        <label class="form-check-label" for="response">
-            <p id="response5"> </p>
-        </label>
-        </div> 
-
-        <div class="form-check" style='text-align:center; text-align:left; font-size: 42px;'>
-        <input class="form-check-input" style="width: 5rem;height: 5rem;" onclick="SetOption(questionsIndex, 6)" type="radio" name="question1" id="res6" value="option">
-        <label class="form-check-label" for="response">
-            <p id="response6"> </p>
-        </label>
-        </div> 
-
-        <div class="form-check" style='text-align:center; text-align:left; font-size: 42px;'>
-        <input class="form-check-input" style="width: 5rem;height: 5rem;" onclick="SetOption(questionsIndex, 7)" type="radio" name="question1" id="res7" value="option">
-        <label class="form-check-label" for="response">
-            <p id="response7"> </p>
-        </label>
-        </div> 
-
-        </input>
-
-        <hr class="mt-1 mb-1"/>
-
-    </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
 
     </form>
 
@@ -169,29 +188,33 @@
             if(_index <= 0) 
                 lastQuestion.style.display = "none";
 
-            for (var _index2 = 0; _index2 < 8; _index2++) 
+            for (var _index2 = 0; _index2 < 11; _index2++) 
             {
+                var checkItem = document.getElementById("label" + String(_index2));
+                var checkElement = document.getElementById("res" + String(_index2));
+                var response = document.getElementById("response" + String(_index2));
+
                 if(responsesArrayData[_index][0] == null) 
                 {
                     question.style.display = "none";
                     testResult.style.display = "";
                     nextQuestion.style.display = "none";
+                    checkItem.style.display = "none";
                 }
                 else 
                     question.style.display = "";
-
-                var checkElement = document.getElementById("res" + String(_index2));
-                var response = document.getElementById("response" + String(_index2));
 
                 if(responsesArrayData[_index][_index2] == null) 
                 {
                     checkElement.style.display = "none";
                     response.style.display = "none";
+                    checkItem.style.display = "none";
                 }
                 else 
                 {
                     checkElement.style.display = "";
                     response.style.display = "";
+                    checkItem.style.display = "";
 
                     var response = document.getElementById("response" + String(_index2));
                     response.innerHTML = responsesArrayData[_index][_index2];
