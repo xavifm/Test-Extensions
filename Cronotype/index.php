@@ -2,7 +2,7 @@
 
     div {
             background-color: white;
-            color: #00AAA1;
+            color: #abdbd7;
     }
 
     label.radio {
@@ -60,7 +60,7 @@
         <title> Chronotype </title>
     </head>
 
-    <body style="background-color: #00AAA1">
+    <body style="background-color: #abdbd7">
 
     <img src="images/logo.png" style="padding: 10px">
 
@@ -76,14 +76,13 @@
         <div class="border">
 
             <div class="question p-3 border-bottom">
-                <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                <div class="d-flex flex-row justify-content-between align-items-center mcq" style="color: #00aaa0">
                     <h4>Descubre tu Cronotipo</h4><span>(<label id="indexQuestion"> </label> de <label id="questionsSize"> </label>)</span></div>
             </div>
 
             <div class="question p-3 border-bottom">
                         <div class="d-flex flex-row align-items-center question-title">
-                            <h3 class="text-danger" style="color: black">Pregunta:</h3>
-                            <h5 class="mt-1 ml-2"><p id="question"> </p></h5>
+                            <h5 class="mt-1 ml-2" style="font-size: 20; color: #00aaa0"><p id="question"> </p></h5>
                         </div><div class="ans ml-2">
         
             <?php 
