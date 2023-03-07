@@ -39,8 +39,6 @@
                 }
             }
 
-            //var_dump($responsesPointsDataArray);
-
             return $responsesPointsDataArray;
         }
 

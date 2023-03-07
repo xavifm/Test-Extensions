@@ -18,7 +18,7 @@
     }
 
     label.radio span {
-    padding: 4px 0px;
+    padding: 10px 0px;
     border: 1px solid #00AAA1;
     display: inline-block;
     color: black;
@@ -62,10 +62,10 @@
 
     <body style="background-color: #00AAA1">
 
-    <img src="images/logo.png">
+    <img src="images/logo.png" style="padding: 10px">
 
     <div class="col-12 col-md-12">
-    <div class="container mt-5">
+    <div class="container mt-5" style="display: flex; justify-content: center">
 
         <form name="cronotype" id="form" action="" method="post">
 
@@ -91,7 +91,7 @@
                 for ($questionIndex = 0; $questionIndex <= $questionListSize; $questionIndex++) 
                 {
                     ?> 
-                        <label class="radio" id="label<?php echo $questionIndex ?>"> <input type="radio" onclick="SetOption(questionsIndex, <?php echo $questionIndex ?>)" name="question" id="res<?php echo $questionIndex ?>" value="option"> <span> <p id="response<?php echo $questionIndex ?>"> </p> </span> </label> 
+                        <label class="radio" id="label<?php echo $questionIndex ?>"> <input type="radio" onclick="SetOption(questionsIndex, <?php echo $questionIndex ?>)" name="question" id="res<?php echo $questionIndex ?>" value="option"> <span> <label id="response<?php echo $questionIndex ?>"> </label> </span> </label> 
                     <?php
                 }
             ?>
@@ -103,18 +103,15 @@
             </div>
             </div>
             </div>
-
-            <div class="col-md-10 col-lg-10" style = "position:relative; left:0%; top:100%;">
-
-            <div class="text-center">
-                    <button type="button" style='width: 10rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px; border-color:#00AAA1; background-color:#00AAA1' id="LastQuestion" name="submit" class="btn btn-primary" onclick="LastQuestion();" ><</button>
-                    <button type="button" style='width: 10rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px; border-color:#00AAA1; background-color:#00AAA1' id="NextQuestion" name="submit" class="btn btn-primary" onclick="NextQuestion();" >></button>
-                    <button type="button" style='width: 10rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px; border-color:#00AAA1; background-color:#00AAA1' id="SeeTestResult" name="submit" class="btn btn-primary" onclick="GetOutput();" >See result</button>
+            
+            </div>
+            <div class="text-center" style="display: flex; justify-content: space-between;">
+                    <button type="button" style='text-align:center; font-size: 22px; border-color:#00AAA1; background-color:#00AAA1; align-items: center;' id="LastQuestion" name="submit" class="btn btn-primary" onclick="LastQuestion();" >&#11164;</button>
+                    <button type="button" style='text-align:center; font-size: 22px; border-color:#00AAA1; background-color:#00AAA1; align-items: center;' id="NextQuestion" name="submit" class="btn btn-primary" onclick="NextQuestion();" >&#11166;</button>
+                    <button type="button" style='text-align:center; font-size: 22px; border-color:#00AAA1; background-color:#00AAA1; align-items: center;' id="SeeTestResult" name="submit" class="btn btn-primary" onclick="GetOutput();" >See result</button>
             </div>
             <br>
-            <p class="text-center" id="testResult" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;'></p>
-            </div>
-            </div>
+            <p class="text-center" id="testResult" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px; align-items: center;'></p>
             </div>
             </div>
 
@@ -125,8 +122,6 @@
         $api = new CronotypeAPI();
         
         $api->responsesData = new ResponsesData();
-        //$result = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-        //print_r($api->ConvertResponsesToClass($result));
         $questionsArray = $api->GetQuestionsArray();
         $responseArray = $api->GetResponsesArray();
 

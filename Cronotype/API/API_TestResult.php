@@ -3,10 +3,6 @@
 
     class TestResult 
     {
-        public $leonPoints; //1
-        public $bearPoints; //2
-        public $wolfPoints; //3
-        public $dolphinPoints; //4
 
         public function ReturnBiggestResult($_pointsListArray) 
         {
