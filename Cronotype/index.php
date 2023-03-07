@@ -1,7 +1,8 @@
 <style>
 
-    body{
-        background-color:#eee;
+    div {
+            background-color: white;
+            color: #00AAA1;
     }
 
     label.radio {
@@ -18,7 +19,7 @@
 
     label.radio span {
     padding: 4px 0px;
-    border: 1px solid blue;
+    border: 1px solid #00AAA1;
     display: inline-block;
     color: black;
     width: 500px;
@@ -30,8 +31,8 @@
     }
 
     label.radio input:checked + span {
-    border-color: blue;
-    background-color: blue;
+    border-color: #00AAA1;
+    background-color: #00AAA1;
     color: #fff;
     }
 
@@ -59,7 +60,9 @@
         <title> Chronotype </title>
     </head>
 
-    <body>
+    <body style="background-color: #00AAA1">
+
+    <img src="images/logo.png">
 
     <div class="col-12 col-md-12">
     <div class="container mt-5">
@@ -72,14 +75,14 @@
 
         <div class="border">
 
-            <div class="question bg-white p-3 border-bottom">
+            <div class="question p-3 border-bottom">
                 <div class="d-flex flex-row justify-content-between align-items-center mcq">
-                    <h4>Descubre tu Cronotipo</h4><span>(0 de ??)</span></div>
+                    <h4>Descubre tu Cronotipo</h4><span>(<label id="indexQuestion"> </label> de <label id="questionsSize"> </label>)</span></div>
             </div>
 
-            <div class="question bg-white p-3 border-bottom">
+            <div class="question p-3 border-bottom">
                         <div class="d-flex flex-row align-items-center question-title">
-                            <h3 class="text-danger">Pregunta:</h3>
+                            <h3 class="text-danger" style="color: black">Pregunta:</h3>
                             <h5 class="mt-1 ml-2"><p id="question"> </p></h5>
                         </div><div class="ans ml-2">
         
@@ -101,12 +104,12 @@
             </div>
             </div>
 
-            <div class="col-md-10 col-lg-10" style = "position:relative; left:0%; top:100%; background-color:white;">
+            <div class="col-md-10 col-lg-10" style = "position:relative; left:0%; top:100%;">
 
             <div class="text-center">
-                    <button type="button" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;' id="LastQuestion" name="submit" class="btn btn-primary" onclick="LastQuestion();" ><</button>
-                    <button type="button" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;' id="NextQuestion" name="submit" class="btn btn-primary" onclick="NextQuestion();" >></button>
-                    <button type="button" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;' id="SeeTestResult" name="submit" class="btn btn-primary" onclick="GetOutput();" >See result</button>
+                    <button type="button" style='width: 10rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px; border-color:#00AAA1; background-color:#00AAA1' id="LastQuestion" name="submit" class="btn btn-primary" onclick="LastQuestion();" ><</button>
+                    <button type="button" style='width: 10rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px; border-color:#00AAA1; background-color:#00AAA1' id="NextQuestion" name="submit" class="btn btn-primary" onclick="NextQuestion();" >></button>
+                    <button type="button" style='width: 10rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px; border-color:#00AAA1; background-color:#00AAA1' id="SeeTestResult" name="submit" class="btn btn-primary" onclick="GetOutput();" >See result</button>
             </div>
             <br>
             <p class="text-center" id="testResult" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px;'></p>
@@ -176,11 +179,12 @@
 
        document.getElementById('form').reset();
        document.getElementById("SeeTestResult").style.display = "none";
+       document.getElementById("questionsSize").innerHTML = questionsArrayData.length-1;
        ShowQuestion(questionsIndex);
 
        function ShowQuestion(_index) 
         {
-
+            document.getElementById("indexQuestion").innerHTML = _index;
             document.getElementById("question").innerHTML = questionsArrayData[_index];
             var nextQuestion = document.getElementById("NextQuestion");
             var lastQuestion = document.getElementById("LastQuestion");
