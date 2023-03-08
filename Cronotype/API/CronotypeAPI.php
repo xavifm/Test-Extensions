@@ -65,6 +65,7 @@
                         array_push($questionsArray, $content->title);
                     }
                 }
+                break;
             }
 
             return $questionsArray;

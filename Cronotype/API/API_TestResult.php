@@ -1,5 +1,5 @@
 <?php 
-    require_once 'API_Responses.php';
+    include 'API_Responses.php';
 
     class TestResult 
     {
