@@ -82,7 +82,7 @@
 
             <div class="question p-3 border-bottom">
                         <div class="d-flex flex-row align-items-center question-title">
-                            <h5 class="mt-1 ml-2" style="font-size: 20; color: #00aaa0"><p id="question"> </p></h5>
+                            <h5 class="mt-1 ml-2" style="font-size: 20; color: #3D322D; font-weight: bold;"><p id="question"> </p></h5>
                         </div><div class="ans ml-2">
         
             <?php 
@@ -90,7 +90,7 @@
                 for ($questionIndex = 0; $questionIndex <= $questionListSize; $questionIndex++) 
                 {
                     ?> 
-                        <label class="radio" id="label<?php echo $questionIndex ?>"> <input type="radio" onclick="SetOption(questionsIndex, <?php echo $questionIndex ?>)" name="question" id="res<?php echo $questionIndex ?>" value="option"> <span> <label id="response<?php echo $questionIndex ?>"> </label> </span> </label> 
+                        <label class="radio" id="label<?php echo $questionIndex ?>"> <input type="radio" onclick="SetOption(questionsIndex, <?php echo $questionIndex ?>)" name="question" id="res<?php echo $questionIndex ?>" value="option"> <span id="response<?php echo $questionIndex ?>" style="font-weight: normal;"> </span> </label> 
                     <?php
                 }
             ?>
@@ -105,9 +105,9 @@
             
             </div>
             <div class="text-center" style="display: flex; justify-content: space-between;">
-                    <button type="button" style='text-align:center; font-size: 22px; border-color:#00AAA1; background-color:#00AAA1; align-items: center;' id="LastQuestion" name="submit" class="btn btn-primary" onclick="LastQuestion();" >&#11164;</button>
-                    <button type="button" style='text-align:center; font-size: 22px; border-color:#00AAA1; background-color:#00AAA1; align-items: center;' id="NextQuestion" name="submit" class="btn btn-primary" onclick="NextQuestion();" >&#11166;</button>
-                    <button type="button" style='text-align:center; font-size: 22px; border-color:#00AAA1; background-color:#00AAA1; align-items: center;' id="SeeTestResult" name="submit" class="btn btn-primary" onclick="GetOutput();" >See result</button>
+                    <button type="button" id="LastQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="LastQuestion();"> Anterior </button> 
+                    <button type="button" id="NextQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="NextQuestion();"> Siguiente </button> 
+                    <button type="button" id="SeeTestResult" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="GetOutput();"> See result </button>
             </div>
             <br>
             <p class="text-center" id="testResult" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px; align-items: center;'></p>
