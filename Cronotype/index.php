@@ -12,7 +12,7 @@
 					<div class="container mt-5" style="display: flex; justify-content: center">
 						<form name="cronotype" id="form" action="" method="post">
 							<hr class="d-flex justify-content-center row"/>
-							<div class="col-lg-10">
+							<div class="col-lg-10" style="width: 100%;">
 								<div class="border">
 									<div class="question p-3 border-bottom">
 										<div class="d-flex flex-row justify-content-between align-items-center mcq" style="color: #00aaa0">

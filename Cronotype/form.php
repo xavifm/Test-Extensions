@@ -122,11 +122,13 @@
 
         }
 
-        function SetOption(index1, index2) 
+        async function SetOption(index1, index2) 
         {
             console.log(responsesArrayData[index1][index2]);
             responsesFromTest[index1] = index2;
             console.log(responsesFromTest[index1]);
+            await new Promise(resolve => setTimeout(resolve, 100));
+            NextQuestion();
         }
 
         function NextQuestion() 
