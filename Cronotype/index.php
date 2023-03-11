@@ -62,6 +62,8 @@
                     <?php
                 }
             ?>
+												<p class="text-center" id="testResult" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px; align-items: center;'/>
+
 											</form>
 										</div>
 									</div>
@@ -77,7 +79,6 @@
 						</div>
 					</div>
 					<br>
-                    <p class="text-center" id="testResult" style='width: 50rem;height: 10rem; text-align:center; vertical-align:middle; font-size: 42px; align-items: center;'/>
     </body>
 </html>
 

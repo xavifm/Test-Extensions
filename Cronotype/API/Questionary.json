@@ -791,10 +791,10 @@
         "parameters": 
         {
             "ResultText": [
-              "eres un león",
-              "eres un oso",
-              "eres un lobo",
-              "eres un delfín"
+              ["leon", "eres un león: Descripción"],
+              ["oso", "eres un oso: Descripción"],
+              ["lobo", "eres un lobo: Descripción"],
+              ["delfin", "eres un delfín: Descripción"]
             ],
 
             "QuizName": "Descubre tu Cronotipo",

@@ -164,8 +164,8 @@
                 data: { "GetTestResult": "true", "ResponsesFromTest": responsesFromTest },
                 success: function(response) { 
                     console.log(responsesFromTest); 
-                    console.log(response); 
-                    document.getElementById("testResult").innerHTML = response;
+                    var responseName = response.substring(response.indexOf(")")+1);
+                    document.getElementById("testResult").innerHTML = responseName;
                 }
             });
         }
