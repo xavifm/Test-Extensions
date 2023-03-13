@@ -793,7 +793,7 @@
             "ResultText": [
               ["leon", "eres un león: <br> <p style='font-size: 15;'> Descripción </p> <br> <img src='images/lion.png' style='padding: 10px'>"],
               ["oso", "eres un oso: <br> <p style='font-size: 15;'> Descripción </p> <br> <img src='images/bear.png' style='padding: 10px'>"],
-              ["lobo", "eres un lobo: <br> <p style='font-size: 15;'> Descripción </p> <br> <img src='images/wolf.png' style='padding: 10px'>"],
+              ["lobo", "eres un lobo: <br> <p style='font-size: 15;'> Descripción </p> <br> <img src='images/wolf.jpg' style='padding: 10px'>"],
               ["delfin", "eres un delfín: <br> <p style='font-size: 15;'> Descripción </p> <br> <img src='images/dolphin.jpg' style='padding: 10px'>"]
             ],
 
