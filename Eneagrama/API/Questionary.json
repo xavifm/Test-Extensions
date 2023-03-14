@@ -1,0 +1,804 @@
+{
+    "questions": 
+    [{
+      "question1": 
+      {
+        "title":"Eres",
+        "responses":
+        [
+          "Hombre",
+          "Mujer",
+          "Prefiero no responder"
+        ]  
+      },
+      "question2": 
+      {
+        "title":"Cuál es tu rango de edad?",
+        "responses":
+        [
+          "Menor de 20", 
+          "20-30",
+          "31-35",
+          "36-40",
+          "41-50",
+          "51-60",
+          "61-70",
+          "+70"
+        ]  
+      },
+      "question3": 
+      {
+        "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+        "responses":
+        [
+          "Si",
+          "No"
+        ],
+
+        "points": 
+        [
+          [
+            "delfin"
+          ],
+
+          [
+            "leon",
+            "oso",
+            "lobo"
+          ]
+        ]
+      },
+      "question4": 
+      {
+        "title":"¿Roncas mientras duermes?",
+        "responses":
+        [
+          "Si",
+          "No"
+        ],  
+
+        "points": 
+        [
+          [
+            "leon",
+            "oso"
+          ],
+          [
+            "lobo",
+            "delfin"
+          ]
+        ],
+        
+        "subquestions": [
+          {
+            "title":"¿Con qué frecuencia roncas?",
+            "responses":
+            [
+              "Cada dia", 
+              "3-4 veces a la semana", 
+              "1-2 veces a la semana", 
+              "1-2 veces al mes"
+            ],
+
+            "points": 
+            [
+              [
+                "oso"
+              ],
+              [
+                "oso"
+              ],
+              [
+                "leon"
+              ],
+              [
+                "leon"
+              ]
+            ]
+          },
+          {
+            "title":"Describa sus ronquidos.",
+            "responses":
+            [
+              "más fuerte que respirar", 
+              "tan fuerte como hablar", 
+              "muy fuerte", 
+              "Se puede escuchar en otra habitación"
+            ],
+
+            "points": 
+            [
+              [
+                "leon"
+              ],
+              [
+                "leon"
+              ],
+              [
+                "oso"
+              ],
+              [
+                "oso"
+              ]
+            ]
+          }
+        ]
+      },
+      "question5": 
+      {
+        "title":"La comida no es una gran pasión para mí.",
+        "responses":
+        [
+          "Si",
+          "No"
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon",
+            "oso"
+          ],
+          [
+            "lobo",
+            "delfin"
+          ]
+        ]
+      },
+      "question6": 
+      {
+        "title":"Normalmente me despierto antes de que suene la alarma.",
+        "responses":
+        [
+          "Si", 
+          "No"
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon"
+          ],
+          [
+            "oso",
+            "lobo",
+            "delfin"
+          ]
+        ]
+      },
+      "question7": 
+      {
+        "title":"No puedo dormir bien en los aviones, incluso con una máscara para los ojos y tapones para los oídos.",
+        "responses":
+        [
+          "Si", 
+          "No"
+        ],  
+        
+        "points": 
+        [
+          [
+            "lobo",
+            "delfin"
+          ],
+          [
+            "leon",
+            "oso"
+          ]
+        ]
+      },
+      "question8": 
+      {
+        "title":"A menudo estoy irritable debido a la fatiga.",
+        "responses":
+        [
+          "Si", 
+          "No"
+        ],  
+        
+        "points": 
+        [
+          [
+            "lobo",
+            "delfin"
+          ],
+          [
+            "leon",
+            "oso"
+          ]
+        ] 
+      },
+      "question9": 
+      {
+        "title":"Me preocupo desmesuradamente por los pequeños detalles.",
+        "responses":
+        [
+          "Si", 
+          "No"
+        ],  
+        
+        "points": 
+        [
+          [
+            "delfin"
+          ],
+          [
+            "lobo",
+            "leon",
+            "oso"
+          ]
+        ]   
+      },
+      "question10": 
+      {
+        "title":"He sido diagnosticado por un médico o autodiagnosticado como insomnio.",
+        "responses":
+        [
+          "Si", 
+          "No"
+        ],  
+        
+        "points": 
+        [
+          [
+
+          ],
+          [
+
+          ]
+        ]  
+      },
+      "question11": 
+      {
+        "title":"En la escuela, estaba ansioso por mis calificaciones.",
+        "responses":
+        [
+          "Si", 
+          "No"
+        ],  
+        
+        "points1": 
+        [
+          [
+            "leon",
+            "oso",
+            "lobo"
+          ],
+          [
+            "delfin"
+          ]
+        ]  
+      },
+      "question12": 
+      {
+        "title":"Pierdo el sueño rumiando sobre lo que sucedió en el pasado y lo que podría suceder en el futuro.",
+        "responses":
+        [
+          "Si", 
+          "No"
+        ],  
+        
+        "points2": 
+        [
+          [
+            "lobo",
+            "delfin"
+          ],
+          [
+            "leon",
+            "oso"
+          ]
+        ] 
+      },
+      "question13": 
+      {
+        "title":"Soy un perfeccionista.",
+        "responses":
+        [
+          "Si", 
+          "No"
+        ],  
+        
+        "points": 
+        [
+          [
+            "delfin"
+          ],
+          [
+            "lobo",
+            "leon",
+            "oso"
+          ]
+        ] 
+      },
+      "question14": 
+      {
+        "title":"Si no tuviera nada que hacer al día siguiente y se diera permiso para dormir todo el tiempo que quisiera, ¿cuándo se despertaría?",
+        "responses":
+        [
+          "Antes de las 6:30", 
+          "Entre las 6:30 a.m. y 8:45 a.m.", 
+          "Después 8:45 a.m."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon"
+          ],
+          [
+            "oso"
+          ],
+          [
+            "lobo",
+            "delfin"
+          ]
+        ]
+      },
+      "question15": 
+      {
+        "title":"Cuando tienes que levantarte de la cama a una hora determinada, ¿utilizas un despertador?",
+        "responses":
+        [
+          "No hay necesidad. Te despiertas solo en el momento justo.", 
+          "Sí a la alarma, sin ninguna o alguna cabezada.", 
+          "Sí a la alarma, con una segunda alarma, y multiples cabezadas."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon",
+            "oso"
+          ],
+          [
+            "delfin"
+          ],
+          [
+            "lobo"
+          ]
+        ]
+      },
+      "question16": 
+      {
+        "title":"¿Cuándo te despiertas los fines de semana?",
+        "responses":
+        [
+          "Al mismo tiempo que su horario de semana laboral.", 
+          "Dentro de cuarenta y cinco a noventa minutos de su horario de semana laboral.", 
+          "Noventa minutos o más después de su horario de semana laboral."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon"
+          ],
+          [
+            "oso"
+          ],
+          [
+            "lobo",
+            "delfin"
+          ]
+        ] 
+      },
+      "question17": 
+      {
+        "title":"¿Cómo vives el jet lag?",
+        "responses":
+        [
+          "Luchas con eso, pase lo que pase.", 
+          "Te ajustas en cuarenta y ocho horas.", 
+          "Te adaptas rápidamente, especialmente cuando viajas al oeste."
+        ],  
+        
+        "points": 
+        [
+          [
+            "delfin"
+          ],
+          [
+            "lobo"
+          ],
+          [
+            "leon",
+            "oso"
+          ]
+        ]  
+      },
+      "question18": 
+      {
+        "title":"¿Cuál es su comida favorita? (Piense en la hora del día más que en el menú).",
+        "responses":
+        [
+          "Desayuno.", 
+          "Almuerzo.", 
+          "Cena."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon",
+            "oso"
+          ],
+          [
+            "lobo"
+          ],
+          [
+            "delfin"
+          ]
+        ]   
+      },
+      "question19": 
+      {
+        "title":"Si volvieras a la escuela secundaria y volvieras a tomar el SAT, ¿cuándo preferirías comenzar la prueba para tener el máximo enfoque y concentración (no solo para terminar de una vez)?",
+        "responses":
+        [
+          "Temprano en la mañana.", 
+          "Temprano en la tarde.", 
+          "Media tarde."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon",
+            "oso"
+          ],
+          [
+            "lobo"
+          ],
+          [
+            "delfin"
+          ]
+        ]  
+      },
+      "question20": 
+      {
+        "title":"Si pudieras elegir cualquier momento del día para hacer un entrenamiento intenso, ¿cuándo lo harías?",
+        "responses":
+        [
+          "Antes de 8:00 a.m.", 
+          "Entre 8:00 a.m. y 4:00 p.m.", 
+          "Después de 4:00 p.m."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon",
+            "oso"
+          ],
+          [
+            "lobo"
+          ],
+          [
+            "delfin"
+          ]
+        ]  
+      },
+      "question21": 
+      {
+        "title":"¿Cuándo estás más alerta?",
+        "responses":
+        [
+          "Una o dos horas después del despertar.", 
+          "De dos a cuatro horas después del despertar.", 
+          "De cuatro a seis horas después del despertar."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon"
+          ],
+          [
+            "oso",
+            "lobo"
+          ],
+          [
+            "delfin"
+          ]
+        ]  
+      },
+      "question22": 
+      {
+        "title":"Si pudiera elegir su propia jornada laboral de cinco horas, ¿qué bloque de horas consecutivas elegiría?",
+        "responses":
+        [
+          "4:00 a.m. a 9:00 a.m.", 
+          "9:00 a.m. a 2:00 p.m.", 
+          "4:00 p.m. a 9:00 p.m."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon"
+          ],
+          [
+            "oso"
+          ],
+          [
+            "lobo",
+            "delfin"
+          ]
+        ]   
+      },
+      "question23": 
+      {
+        "title":"Se considera usted ...",
+        "responses":
+        [
+          "Cerebro izquierdo, es decir, un pensador estratégico y analítico.", 
+          "Un pensador equilibrado", 
+          "Cerebro derecho, es decir, un pensador creativo y perspicaz."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon"
+          ],
+          [
+            "lobo",
+            "oso"
+          ],
+          [
+            "delfin"
+          ]
+        ]    
+      },
+      "question24": 
+      {
+        "title":"¿Duermes la siesta?",
+        "responses":
+        [
+          "Nunca.", 
+          "A veces el fin de semana.", 
+          "Si tomaras una siesta, estarías despierto toda la noche."
+        ],  
+        
+        "points": 
+        [
+          [
+            "lobo"
+          ],
+          [
+            "lobo",
+            "oso"
+          ],
+          [
+            "delfin"
+          ]
+        ]  
+      },
+      "question25": 
+      {
+        "title":"Si tuviera que hacer dos horas de trabajo físico duro, como mover muebles o cortar leña, ¿cuándo elegiría hacerlo para obtener la máxima eficiencia y seguridad (no solo para terminar de una vez)?",
+        "responses":
+        [
+          "8:00 a.m. a 10:00 a.m.", 
+          "11:00 a.m. a 1:00 p.m.", 
+          "6:00 p.m. a 8:00 p.m."
+        ],  
+        
+        "points": 
+        [
+          [
+
+          ],
+          [
+
+          ],
+          [
+            
+          ]
+        ]  
+      },
+      "question26": 
+      {
+        "title":"Con respecto a su salud en general, ¿qué afirmación suena como usted?",
+        "responses":
+        [
+          "Tomo decisiones saludables casi todo el tiempo.", 
+          "Tomo decisiones saludables a veces.", 
+          "Me cuesta tomar decisiones saludables."
+        ],  
+        
+        "points": 
+        [
+          [
+
+          ],
+          [
+
+          ],
+          [
+
+          ]
+        ] 
+      },
+      "question27": 
+      {
+        "title":"¿Cuál es su nivel de comodidad con la toma de riesgos?",
+        "responses":
+        [
+          "Bajo.", 
+          "Medio.", 
+          "Alto."
+        ],  
+        
+        "points": 
+        [
+          [
+            "delfin"
+          ],
+          [
+            "lobo",
+            "oso"
+          ],
+          [
+            "leon"
+          ]
+        ] 
+      },
+      "question28": 
+      {
+        "title":"Se considera usted:",
+        "responses":
+        [
+          "Orientado al futuro con grandes planes y metas claras.", 
+          "Informado por el pasado, esperanzado con el futuro y aspirando a vivir el momento.", 
+          "Orientado al presente. Se trata de lo que se siente bien ahora."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon",
+            "oso"
+          ],
+          [
+            "delfin"
+          ],
+          [
+            "leon"
+          ]
+        ] 
+      },
+      "question29": 
+      {
+        "title":"¿Cómo te caracterizarías como estudiante?",
+        "responses":
+        [
+          "Estelar.", 
+          "Sólido.", 
+          "Vago."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon",
+            "oso"
+          ],
+          [
+            "lobo"
+          ],
+          [
+            "delfin"
+          ]
+        ] 
+      },
+      "question30": 
+      {
+        "title":"Cuando te levantas por la mañana, ¿estás ...",
+        "responses":
+        [
+          "ojos brillantes.", 
+          "Aturdido pero no confundido", 
+          "Aturdido, párpados hechos de cemento."
+        ],  
+        
+        "points": 
+        [
+          [
+          ],
+          [
+          ],
+          [
+          ]
+        ] 
+      },
+      "question31": 
+      {
+        "title":"¿Cómo describiría su apetito dentro de la media hora de despertar?",
+        "responses":
+        [
+          "Muy hambriento.", 
+          "Hambriento.", 
+          "No deltodo hambriento."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon"
+          ],
+          [
+            "oso"
+          ],
+          [
+            "lobo",
+            "delfin"
+          ]
+        ] 
+      },
+      "question32": 
+      {
+        "title":"¿Con qué frecuencia sufre de síntomas de insomnio?",
+        "responses":
+        [
+          "En raras ocasiones, solo cuando se ajusta a una nueva zona horaria.", 
+          "De vez en cuando, cuando está pasando por un mal momento o está estresado.", 
+          "Crónicamente. Viene en oleadas."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon",
+            "oso"
+          ],
+          [
+            "lobo"
+          ],
+          [
+            "delfin"
+          ]
+        ] 
+      },
+      "question33": 
+      {
+        "title":"¿Cómo describiría su satisfacción general con la vida?",
+        "responses":
+        [
+          "Alto.", 
+          "Bien.", 
+          "Bajo."
+        ],  
+        
+        "points": 
+        [
+          [
+            "leon",
+            "oso"
+          ],
+          [
+            "lobo"
+          ],
+          [
+            "delfin"
+          ]
+        ] 
+      }
+    }],
+    "config":
+    {
+        "parameters": 
+        {
+            "ResultText": [
+              ["leon", "eres un león: <br> <p style='font-size: 15;'> Descripción </p> <br> <img src='images/lion.png' style='padding: 10px'>"],
+              ["oso", "eres un oso: <br> <p style='font-size: 15;'> Descripción </p> <br> <img src='images/bear.png' style='padding: 10px'>"],
+              ["lobo", "eres un lobo: <br> <p style='font-size: 15;'> Descripción </p> <br> <img src='images/wolf.jpg' style='padding: 10px'>"],
+              ["delfin", "eres un delfín: <br> <p style='font-size: 15;'> Descripción </p> <br> <img src='images/dolphin.jpg' style='padding: 10px'>"]
+            ],
+
+            "QuizName": "Descubre tu Cronotipo",
+            "MaxListedQuestions": 15
+        }
+    }
+  }
