@@ -66,10 +66,7 @@
                 {
                     if($responsesData[$index] == $index2) 
                     {
-                        foreach($point as $element) 
-                        {
-                            $pointsListArray[$element]++;
-                        }
+                        $pointsListArray[$point[0]] += intval($point[1]);
                     }
                     $index2++;
                 }
