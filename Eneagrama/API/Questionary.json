@@ -2,7 +2,7 @@
   "questions": 
   [{
   "question1":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Por lo general me consideran una persona seria y sensata, y una vez dicho y hecho todo, supongo que lo soy.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -29,7 +29,7 @@
     ]
  },
  "question2":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Mi auténtico interés por los demás hace que me involucre profundamente con ellos, con sus esperanzas, sus sueños y necesidades.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -56,7 +56,7 @@
     ]
  },
  "question3":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me considero una persona muy competente: en realidad, me molesta no ser eficaz y eficiente.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -83,7 +83,7 @@
     ]
  },
  "question4":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Muchos me consideran una persona enigmática, difícil y contradictoria, ¡y eso me gusta de mí!",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -110,7 +110,7 @@
     ]
  },
  "question5":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me gusta profundizar en las cosas, y estudio detenidamente los detalles hasta que lo he entendido todo lo mejor posible.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -137,7 +137,7 @@
     ]
  },
  "question6":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me atrae la autoridad, pero al mismo tiempo desconfío de ella.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -164,7 +164,7 @@
     ]
  },
  "question7":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me encanta viajar y descubrir diferentes tipos de comidas, personas y experiencias, ¡todo el fabuloso torbellino de la vida!",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -191,7 +191,7 @@
     ]
  },
  "question8":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy extraordinariamente independiente y no me gusta depender de nadie para lo que necesito.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -218,7 +218,7 @@
     ]
  },
  "question9":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Parece que lo que gusta de mí a las personas es que se sienten seguras a mi lado.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -245,7 +245,7 @@
     ]
  },
  "question10":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Siempre he intentado ser sincero y objetivo respecto a mí mismo, y estoy decidido a ser fiel a mi conciencia, cueste lo que cueste.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -272,7 +272,7 @@
     ]
  },
  "question11":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me resulta natural ser amistoso; entablo conversaciones con facilidad y me tuteo con todo el mundo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -299,7 +299,7 @@
     ]
  },
  "question12":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Cuando las cosas me van bien, prácticamente «brillo» con una especie de alegría interior por ser quien soy y tener la vida que tengo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -326,7 +326,7 @@
     ]
  },
  "question13":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tiendo a obsesionarme con mis sentimientos negativos un buen tiempo antes de liberarme de ellos.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -353,7 +353,7 @@
     ]
  },
  "question14":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy una persona muy reservada, no dejo entrar a muchas personas en mi mundo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -380,7 +380,7 @@
     ]
  },
  "question15":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy muy emotivo, pero no suelo demostrar mis sentimientos, a no ser a mis íntimos, e incluso a ellos, no siempre.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -407,7 +407,7 @@
     ]
  },
  "question16":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Mi agenda suele estar llena, y me gusta así: la hierba no crecerá bajo mis pies.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -434,7 +434,7 @@
     ]
  },
  "question17":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Creo que hay que «romper algunos huevos para hacer una tortilla»",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -461,7 +461,7 @@
     ]
  },
  "question18":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No me importa estar con gente ni me importa estar solo; cualquiera de las dos cosas me va bien, siempre que esté en paz conmigo mismo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -488,7 +488,7 @@
     ]
  },
  "question19":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Si bien una parte de mí podría ser alocada, en términos generales no ha sido precisamente ese mi estilo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -515,7 +515,7 @@
     ]
  },
  "question20":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"He descubierto que las personas reaccionan con simpatía cuando les presto atención y les doy aliento.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -542,7 +542,7 @@
     ]
  },
  "question21":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Trato de presentarme ante los demás bajo la mejor luz posible, pero eso es lo que hace todo el mundo, ¿verdad?.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -569,7 +569,7 @@
     ]
  },
  "question22":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Suelo sentirme solo, incluso cuando estoy con personas amigas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -596,7 +596,7 @@
     ]
  },
  "question23":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No me siento muy importante ni poderoso, más bien pequeño e invisible: ¡Sería un buen espía!.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -623,7 +623,7 @@
     ]
  },
  "question24":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Si cometo un error temo que todos me van a criticar de inmediato.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -650,7 +650,7 @@
     ]
  },
  "question25":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Lo importante para mi es la emoción y la variedad, no la comodidad ni la precaución, aunque aprovecho tas comodidades siempre que las encuentro.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -677,7 +677,7 @@
     ]
  },
  "question26":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Cuando quiero a las personas las considero «mi gente» y siento la necesidad de cuidar de sus intereses.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -704,7 +704,7 @@
     ]
  },
  "question27":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"He encontrado un cierto equilibrio en mí vida, y no veo ningún motivo para estropearlo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -731,7 +731,7 @@
     ]
  },
  "question28":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tengo la impresión de que tengo un juez en la cabeza: a veces este juez es sabio y perspicaz, pero muchas otras es simplemente severo y duro.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -758,7 +758,7 @@
     ]
  },
  "question29":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No puedo ver un perro extraviado en la calle sin desear llevármelo a casa.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -785,7 +785,7 @@
     ]
  },
  "question30":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Mis sentimientos tienden a serme ajenos; siento las cosas con mucha intensidad por un instante y, a continuación, simplemente sigo con lo mío.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -812,7 +812,7 @@
     ]
  },
  "question31":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Si me critican o entienden mal, tiendo a cerrarme en mí mismo y a ponerme de mal humor.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -839,7 +839,7 @@
     ]
  },
  "question32":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Si los demás supieran las cosas que pienso la mayor parte del tiempo creerían que estoy loco.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -866,7 +866,7 @@
     ]
  },
  "question33":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me siento más seguro haciendo lo que se espera de mí que obrando por mi cuenta.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -893,7 +893,7 @@
     ]
  },
  "question34":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Mi mente no para de parlotear, a veces me parece que estoy pensando en diez cosas al mismo tiempo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -920,7 +920,7 @@
     ]
  },
  "question35":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Sé cómo obtener resultados, sé cómo recompensar y apremiar a las personas para que hagan las cosas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -947,7 +947,7 @@
     ]
  },
  "question36":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Estar «cómodo» en todo el sentido de la palabra me atrae muchísimo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -974,7 +974,7 @@
     ]
  },
  "question37":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Creo que he pagado un elevado precio por tratar de ser perfecto.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1001,7 +1001,7 @@
     ]
  },
  "question38":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me siento bien por ser una persona considerada y generosa.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1028,7 +1028,7 @@
     ]
  },
  "question39":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Es importante para mí sentir que tengo éxito, aunque aún no sea el éxito que deseo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1055,7 +1055,7 @@
     ]
  },
  "question40":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me cuesta participar en proyectos si no tengo el control creativo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1082,7 +1082,7 @@
     ]
  },
  "question41":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Sólo teniendo la información correcta se puede tomar una decisión racional, pero, claro, la mayoría de la gente no es muy racional.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1109,7 +1109,7 @@
     ]
  },
  "question42":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Es posible que no siempre esté de acuerdo con las reglas, y que no siempre las siga, pero deseo conocerlas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1136,7 +1136,7 @@
     ]
  },
  "question43":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Una cosa que no soporto de ninguna manera es el aburrimiento, y procuro no aburrirme nunca.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1163,7 +1163,7 @@
     ]
  },
  "question44":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No siento mucha compasión por los débiles y los indecisos: la debilidad sólo atrae problemas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1190,7 +1190,7 @@
     ]
  },
  "question45":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Prefiero ceder antes que armar una escena.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1217,7 +1217,7 @@
     ]
  },
  "question46":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me gusta reírme como a cualquiera; ¡debería hacerlo más a menudo!",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1244,7 +1244,7 @@
     ]
  },
  "question47":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me cuesta creer las muchas cosas que he hecho por la gente, pero me molesta mucho que no den señales de darse cuenta o de que les importe.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1271,7 +1271,7 @@
     ]
  },
  "question48":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Para bien o para mal, soy bueno para encubrir mis inseguridades; nadie adivina jamás qué siento realmente.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1298,7 +1298,7 @@
     ]
  },
  "question49":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tiendo a no seguir las reglas ni las expectativas porque quiero poner mi sello especial en todo lo que hago.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1325,7 +1325,7 @@
     ]
  },
  "question50":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Mi familia me encuentra algo raro o excéntrico; ciertamente me han dicho que debo salir más.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1352,7 +1352,7 @@
     ]
  },
  "question51":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tiendo a tener primeras impresiones fuertes sobre las personas, y me cuesta cambiarlas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1379,7 +1379,7 @@
     ]
  },
  "question52":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me comprometo bastante cuando estoy en una relación, pero cuando se acaba, paso a otra cosa.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1406,7 +1406,7 @@
     ]
  },
  "question53":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tengo una voluntad fuerte y no renuncio ni me echo atrás fácilmente.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1433,7 +1433,7 @@
     ]
  },
  "question54":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No sé exactamente cómo lo hago, pero no me dejo deprimir por las cosas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1460,7 +1460,7 @@
     ]
  },
  "question55":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Mis principios e ideales me estimulan hacia mayores logros y dan sentido y valor a mi vida.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1487,7 +1487,7 @@
     ]
  },
  "question56":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Es cierto que suelo hacer más por los demás de lo que debiera; doy demasiado y no pienso en mí lo suficiente.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1514,7 +1514,7 @@
     ]
  },
  "question57":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Deseo causar buena impresión, de modo que normalmente soy cortés, educado y amigable.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1541,7 +1541,7 @@
     ]
  },
  "question58":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Según muchos criterios, soy bastante dramático y temperamental.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1568,7 +1568,7 @@
     ]
  },
  "question59":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Hablo bastante cuando quiero, pero la mayor parte del tiempo prefiero limitarme a observar la locura que me rodea.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1595,7 +1595,7 @@
     ]
  },
  "question60":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Hay unas cuantas personas a las que admiro de veras, son algo así como héroes para mí.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1622,7 +1622,7 @@
     ]
  },
  "question61":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy curioso y arriesgado; por lo general, soy el primero entre mis amigos en probar cualquier cosa nueva e interesante.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1649,7 +1649,7 @@
     ]
  },
  "question62":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No hay nada que me haga sentir más orgulloso que ver actuar por su cuenta a alguien a quien he tomado bajo mi protección.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1676,7 +1676,7 @@
     ]
  },
  "question63":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy bastante fácil de complacer y normalmente creo que lo que tengo es suficiente para mí.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1703,7 +1703,7 @@
     ]
  },
  "question64":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No entiendo por qué tantas personas tienen valores morales tan laxos.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1730,7 +1730,7 @@
     ]
  },
  "question65":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Con frecuencia me sorprendo intentando conquistar a las personas, sobre todo si al principio se muestran indiferentes a mí.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1757,7 +1757,7 @@
     ]
  },
  "question66":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Sé lo bien que les va a mis amigos y colegas, y tiendo a compararme con ellos.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1784,7 +1784,7 @@
     ]
  },
  "question67":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tiendo a pasar bastante tiempo imaginando situaciones y conversaciones que no han ocurrido necesariamente.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1811,7 +1811,7 @@
     ]
  },
  "question68":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Si hay que resolver un problema, que me dejen trabajarlo solo y saldré con la respuesta.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1838,7 +1838,7 @@
     ]
  },
  "question69":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No me gusta tomar grandes decisiones, pero ciertamente no deseo que otra persona las tome por mí.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1865,7 +1865,7 @@
     ]
  },
  "question70":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Cuando ya no disfruto en una actividad dejo de hacerla.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1892,7 +1892,7 @@
     ]
  },
  "question71":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tengo un lado tierno, incluso algo sentimental, que muestro a muy pocas personas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1919,7 +1919,7 @@
     ]
  },
  "question72":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me han dicho que parezco distraído; la verdad es que comprendo las cosas, pero no quiero reaccionar a ellas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1946,7 +1946,7 @@
     ]
  },
  "question73":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Depende tanto de mí que se hagan las cosas que tengo que ser más organizado y metódico que los demás.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -1973,7 +1973,7 @@
     ]
  },
  "question74":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me produce una alegría especial recibir en casa y atender a mis amigos y familiares.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2000,7 +2000,7 @@
     ]
  },
  "question75":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Suelo esforzarme por ser el mejor en lo que hago; sí no puedo sobresalir en algo, por lo general no me molesto en hacerlo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2027,7 +2027,7 @@
     ]
  },
  "question76":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Ansío que alguien me rescate y me arranque de toda esta monotonía.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2054,7 +2054,7 @@
     ]
  },
  "question77":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Pensándolo bien, no se puede ser más raro que aquellos que se comportan de manera normal.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2081,7 +2081,7 @@
     ]
  },
  "question78":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Algunas personas me consideran muy inquieto y nervioso, ¡pero no saben ni la mitad!.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2108,7 +2108,7 @@
     ]
  },
  "question79":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No soy sólo una «persona divertida», también tengo mi lado serio, incluso oscuro, aunque no me gusta mucho ir allí.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2135,7 +2135,7 @@
     ]
  },
  "question80":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Las personas que me conocen me agradecen que les hable francamente y les diga exactamente lo que pienso.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2162,7 +2162,7 @@
     ]
  },
  "question81":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No me considero tozudo, pero me han dicho que lo soy bastante cuando he tomado una decisión.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2189,7 +2189,7 @@
     ]
  },
  "question82":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me imagino que tengo una misión personal, tal vez una vocación para algo superior, y creo que durante mi vida podría realizar algo extraordinario.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2216,7 +2216,7 @@
     ]
  },
  "question83":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Sé ser amable y sustentador, pero hay en mí más dureza de la que se podría suponer.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2243,7 +2243,7 @@
     ]
  },
  "question84":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"A veces he tenido que tomar unos pocos atajos para conseguir mis objetivos.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2270,7 +2270,7 @@
     ]
  },
  "question85":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Cuando las cosas se ponen difíciles, tiendo a desmoronarme y renunciar; tal vez tiro la toalla con demasiada facilidad.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2297,7 +2297,7 @@
     ]
  },
  "question86":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tiendo a tardar muchísimo en perfeccionar los proyectos en que trabajo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2324,7 +2324,7 @@
     ]
  },
  "question87":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Sé cuánto enredo armo yo, de modo que encuentro lógico desconfiar de lo que pretenden los demás.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2351,7 +2351,7 @@
     ]
  },
  "question88":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy bueno para lo general, no tanto para los detalles; disfruto más teniendo muchas ideas que en ocuparme de ponerlas en práctica.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2378,7 +2378,7 @@
     ]
  },
  "question89":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"He tenido que trabajar mucho por todo lo que tengo; creo que las dificultades son buenas porque te endurecen y te hacen tener claro lo que deseas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2405,7 +2405,7 @@
     ]
  },
  "question90":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Muchas personas se ponen frenéticas con demasiada facilidad; yo soy mucho más ecuánime.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2432,7 +2432,7 @@
     ]
  },
  "question91":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Detesto los errores, por lo tanto tiendo a ser muy minucioso para asegurarme de que las cosas se hagan bien.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2459,7 +2459,7 @@
     ]
  },
  "question92":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy capaz de expresar mis sentimientos por las personas con más franqueza que la mayoría.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2486,7 +2486,7 @@
     ]
  },
  "question93":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Cuando me siento inseguro puedo ser algo reservado y frío con las personas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2513,7 +2513,7 @@
     ]
  },
  "question94":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy capaz de perdonarme casi cualquier cosa, menos el mal gusto.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2540,7 +2540,7 @@
     ]
  },
  "question95":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"La mayoría de las personas son increíblemente ignorantes; es asombroso que algo funcione.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2567,7 +2567,7 @@
     ]
  },
  "question96":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Deseo fiarme de las personas, pero suelo sorprenderme desconfiando de sus motivos.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2594,7 +2594,7 @@
     ]
  },
  "question97":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Cuando de veras deseo algo, normalmente encuentro la manera de obtenerlo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2621,7 +2621,7 @@
     ]
  },
  "question98":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me considero un desafiador, una persona que saca a las personas de su zona de comodidad para que hagan todo lo que son capaces de hacer.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2648,7 +2648,7 @@
     ]
  },
  "question99":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Hay que aceptar lo que trae la vida, ya que de todos modos no es mucho lo que se puede hacer al respecto.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2675,7 +2675,7 @@
     ]
  },
  "question100":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Gran parte de mi vida he creído que lo que está bien, está bien, y que lo que está mal, está mal, y ya está.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2702,7 +2702,7 @@
     ]
  },
  "question101":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Hago un esfuerzo especial por saber qué les pasa a las personas que quiero.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2729,7 +2729,7 @@
     ]
  },
  "question102":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Claro que me molesta que los demás no reconozcan la excelencia en lo que hago.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2756,7 +2756,7 @@
     ]
  },
  "question103":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Por lo general, no me gusta trabajar demasiado cerca de los demás.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2783,7 +2783,7 @@
     ]
  },
  "question104":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Sé mucho sobre muchas cosas, y en algunos campos me considero un experto.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2810,7 +2810,7 @@
     ]
  },
  "question105":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy muy trabajador, de verdad: no paro hasta terminar un trabajo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2837,7 +2837,7 @@
     ]
  },
  "question106":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Las cosas me abaten de vez en cuando, pero muy pronto levanto cabeza.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2864,7 +2864,7 @@
     ]
  },
  "question107":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Mi sentido del humor es prosaico, incluso grosero a veces, aunque creo que la mayoría de las personas son demasiado remilgadas y sensibles.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2891,7 +2891,7 @@
     ]
  },
  "question108":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me es fácil comprender diferentes puntos de vista y tiendo más a estar de acuerdo que en desacuerdo con las personas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2918,7 +2918,7 @@
     ]
  },
  "question109":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me cuesta muchísimo dejar que las cosas se hagan sólo suficientemente bien.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2945,7 +2945,7 @@
     ]
  },
  "question110":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me considero algo así como un «sanador de corazones rotos»",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2972,7 +2972,7 @@
     ]
  },
  "question111":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy más adaptable que la mayoría: si las cosas no van bien, sé cambiar mi comportamiento para obtener los resultados que deseo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -2999,7 +2999,7 @@
     ]
  },
  "question112":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Conocerme a mí mismo y ser fiel a mis necesidades emocionales han sido motivaciones muy importantes para mí.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3026,7 +3026,7 @@
     ]
  },
  "question113":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy muy curioso y me gusta investigar por qué las cosas son como son; incluso las cosas obvias no son tan obvias si se miran bien.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3053,7 +3053,7 @@
     ]
  },
  "question114":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Cuando tengo que tomar una decisión importante, consulto la opinión de las personas en que confío.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3080,7 +3080,7 @@
     ]
  },
  "question115":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Uno de mis principales problemas es que me distraigo con facilidad y me disperso demasiado.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3107,7 +3107,7 @@
     ]
  },
  "question116":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy capaz de violentos estallidos de cólera, pero se pasan.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3134,7 +3134,7 @@
     ]
  },
  "question117":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Prefiero acentuar lo positivo antes que insistir en lo negativo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3161,7 +3161,7 @@
     ]
  },
  "question118":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Han recaído muchas responsabilidades sobre mis hombros: si no hubiera estado a la altura de las circunstancias, sólo Dios sabe lo que habría ocurrido.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3188,7 +3188,7 @@
     ]
  },
  "question119":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Con frecuencia mi salud y mi economía han sufrido debido a que antepongo las necesidades e intereses de los demás a los míos.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3215,7 +3215,7 @@
     ]
  },
  "question120":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Siempre tengo un objetivo en mente, y sé motivarme para conseguirlo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3242,7 +3242,7 @@
     ]
  },
  "question121":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"No me gusta tomar el mando ni obedecer órdenes.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3269,7 +3269,7 @@
     ]
  },
  "question122":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Mi mente es tan vehemente y activa que a veces me parece que está ardiendo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3296,7 +3296,7 @@
     ]
  },
  "question123":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Es muy extraño: puedo ser escéptico, incluso cínico, acerca de todo tipo de cosas, y de pronto me dejo engañar totalmente en algo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3323,7 +3323,7 @@
     ]
  },
  "question124":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tiendo a gastar más dinero del que probablemente debería.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3350,7 +3350,7 @@
     ]
  },
  "question125":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me siento más vivo cuando hago lo que los demás creen imposible: Me gusta arriesgarme y comprobar si soy capaz de vencer los peligros.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3377,7 +3377,7 @@
     ]
  },
  "question126":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tengo lo que se podría llamar una filosofía de la vida que me orienta y me da muchísimo consuelo en las épocas difíciles.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3404,7 +3404,7 @@
     ]
  },
  "question127":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me conmueve muchísimo la nobleza humana y que se conserve el buen talante en las dificultades.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3431,7 +3431,7 @@
     ]
  },
  "question128":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me encanta desvivirme para que las personas se sientan acogidas y apreciadas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3458,7 +3458,7 @@
     ]
  },
  "question129":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Tengo una vena de adicción al trabajo; me siento perdido si no estoy realizando cosas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3485,7 +3485,7 @@
     ]
  },
  "question130":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Soy muy consciente de mis intuiciones, tenga o no el valor para seguirlas.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3512,7 +3512,7 @@
     ]
  },
  "question131":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me concentro tanto en lo que hago que suelo no enterarme del paso del tiempo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3539,7 +3539,7 @@
     ]
  },
  "question132":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Ansiedad podría ser mi segundo apellido.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3566,7 +3566,7 @@
     ]
  },
  "question133":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Me encanta estar con gente, siempre que quieran ir donde yo voy.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3593,7 +3593,7 @@
     ]
  },
  "question134":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Normalmente a alguien tiene que tocarle la situación desventajosa, y no quiero ser yo.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
@@ -3620,7 +3620,7 @@
     ]
  },
  "question135":{
-    "title":"El más mínimo sonido o luz puede mantenerme despierto despertarme.",
+    "title":"Durante el día hago todo lo que hay que hacer, pero cuando se acaba el día sé relajarme y tomarme las cosas con calma.",
     "responses":[
        "Casi nunca",
        "Rara vez cierto",
