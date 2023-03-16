@@ -1,6 +1,6 @@
 <?php 
-        include 'API/CronotypeAPI.php';
-        $api = new CronotypeAPI();
+        include 'API/EneagramaAPI.php';
+        $api = new EneagramaAPI();
         
         $api->responsesData = new ResponsesData();
         $questionsArray = $api->GetQuestionsArray();

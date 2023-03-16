@@ -4,11 +4,11 @@
 
     if($_POST["GetTestResult"] == "true") 
     {
-        $api = new CronotypeAPI();
+        $api = new EneagramaAPI();
         echo $api->ConvertResponsesToClass($_POST["ResponsesFromTest"]);
     }
 
-    class CronotypeAPI 
+    class EneagramaAPI 
     {
         public $questionsData;
         public $responsesData;
