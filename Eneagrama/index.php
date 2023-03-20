@@ -72,6 +72,7 @@
 							<button type="button" id="LastQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="LastQuestion();"> Anterior </button>
 							<button type="button" id="NextQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="NextQuestion();"> Siguiente </button>
 							<button type="button" id="SeeTestResult" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="GetOutput();"> See result </button>
+							<button type="button" id="ResetTest" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="ResetWebpage();"> Reset Test </button>
 						</div>
 						<br>
 						</div>

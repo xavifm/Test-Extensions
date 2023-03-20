@@ -13,6 +13,8 @@
 
         <script>
             var questionsIndex = 0;
+            var resetButton = document.getElementById("ResetTest");
+            var testFinished = false;
             const questionsArrayData = [];
             const responsesArrayData = [ [] <?php for ($i = 0; $i <= $size-1 ; $i++) { echo ",[]"; } ?>];
             const responsesFromTest = [];
@@ -55,6 +57,7 @@
 
        document.getElementById('form').reset();
        document.getElementById("SeeTestResult").style.display = "none";
+       resetButton.style.display = "none";
        document.getElementById("questionsSize").innerHTML = questionsArrayData.length-1;
        ShowQuestion(questionsIndex);
 
@@ -69,6 +72,7 @@
 
             nextQuestion.style.display = "";
             lastQuestion.style.display = "";
+            resetButton.style.display = "none";
             testResult.style.display = "none";
 
             if(_index <= 0) 
@@ -86,6 +90,9 @@
                     testResult.style.display = "";
                     nextQuestion.style.display = "none";
                     checkItem.style.display = "none";
+                    
+                    if(testFinished == true)
+                        resetButton.style.display = "";
                 }
                 else 
                     question.style.display = "";
@@ -149,6 +156,11 @@
             }
         }
 
+        function ResetWebpage() 
+        {
+            window.location.reload();
+        }
+
         function GetOutput() 
         {
             for(var index = 0 ; index < <?php echo $size - 2 ?> ; index++)
@@ -168,6 +180,10 @@
                     document.getElementById("testResult").innerHTML = responseName;
                 }
             });
+
+            testFinished = true;
+            resetButton.style.display = "";
+
         }
 
     </script>
