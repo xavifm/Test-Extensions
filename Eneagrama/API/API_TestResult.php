@@ -23,7 +23,7 @@
             return "ERROR!!!!!";
         }
 
-        public function CheckDraw($_points) 
+        public function CheckDraw($_points, $_higherPoints) 
         {
             $index1 = 0;
             $index2 = 0;
@@ -33,7 +33,7 @@
                 $index2 = 0; 
                 foreach($_points as $element2)
                 {
-                    if($index1 != $index2 && $element1 == $element2)
+                    if($element1 == $_higherPoints && $index1 != $index2 && $element1 == $element2)
                         return true;
       
                     $index2++;
@@ -60,18 +60,17 @@
                 $lastElement = $element;
             }
 
+            if($this->CheckDraw($elementsList, $lastElement) == true)
+                return "Se ha detectado un empate en el test, modifica algunas preguntas!";
             
             foreach(array_keys($elementsListNameSearch) as $element)
             {
                 if($elementsListNameSearch[$element] == $lastElement) 
                 {
-                    if($this->CheckDraw($elementsList) == true)
-                     return $elementsListNameSearch[$element];
-
                     foreach($textResponseArray as $text) 
                     {
-                        if($text[0] == $element)
-                            return $elementsListNameSearch[$element];
+                        if($text[0] == $element)    
+                            return $text[1];
                     }
                 }
             }
