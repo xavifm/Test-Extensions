@@ -22,6 +22,27 @@
 
             return "ERROR!!!!!";
         }
+
+        public function CheckDraw($_points) 
+        {
+            $index1 = 0;
+            $index2 = 0;
+      
+            foreach($_points as $element1)
+            {
+                $index2 = 0; 
+                foreach($_points as $element2)
+                {
+                    if($index1 != $index2 && $element1 == $element2)
+                        return true;
+      
+                    $index2++;
+                }
+                $index1++;
+            }
+      
+            return false;
+        }
         
         public function ReturnBiggestResult($_pointsListArray) 
         {
@@ -39,14 +60,18 @@
                 $lastElement = $element;
             }
 
+            
             foreach(array_keys($elementsListNameSearch) as $element)
             {
                 if($elementsListNameSearch[$element] == $lastElement) 
                 {
+                    if($this->CheckDraw($elementsList) == true)
+                     return $elementsListNameSearch[$element];
+
                     foreach($textResponseArray as $text) 
                     {
                         if($text[0] == $element)
-                            return $text[1];
+                            return $elementsListNameSearch[$element];
                     }
                 }
             }
