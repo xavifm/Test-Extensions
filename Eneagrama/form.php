@@ -158,7 +158,7 @@
             }
 
             $.ajax({
-                url: 'API/CronotypeAPI.php',
+                url: 'API/EneagramaAPI.php',
                 type: 'post',
                 dataType: 'text',
                 data: { "GetTestResult": "true", "ResponsesFromTest": responsesFromTest },
