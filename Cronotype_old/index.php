@@ -1,20 +1,13 @@
 <html>
 	<head>
-	
-        <title>Hacktua Chronotype </title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<link rel="stylesheet" href="style.css"/>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
         </script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
-
+			<title> Chronotype </title>
 		</head>
-		<body>
-			<img src="images/logo.png" style="padding: 10px; width: 200px">
-			
+		<body style="background-color: #abdbd7">
+			<img src="images/logo.png" style="padding: 10px">
 				<div class="col-12 col-md-12">
 					<div class="container mt-5" style="display: flex; justify-content: center">
 						<form name="cronotype" id="form" action="" method="post">
@@ -24,7 +17,7 @@
 									<div class="question p-3 border-bottom">
 										<div class="d-flex flex-row justify-content-between align-items-center mcq" style="color: #00aaa0">
 											<h4 id="testName"></h4>
-											<span id="counterQuestion">(<label id="indexQuestion"> </label> de <label id="questionsSize"> </label>)</span>
+											<span>(<label id="indexQuestion"> </label> de <label id="questionsSize"> </label>)</span>
 										</div>
 									</div>
 									<div class="question p-3 border-bottom">
@@ -78,22 +71,13 @@
 						<div class="text-center" style="display: flex; justify-content: space-between;">
 							<button type="button" id="LastQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="LastQuestion();"> Anterior </button>
 							<button type="button" id="NextQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="NextQuestion();"> Siguiente </button>
-						</div>
-					
-						
-						</div>
-						<div class="text-center" id="SeeTestResult">
-						   <button type="button"  class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="GetOutput();"> Descubre tu horario óptimo </button>
+							<button type="button" id="SeeTestResult" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="GetOutput();"> See result </button>
 						</div>
 						<br>
+						</div>
 					</div>
 					<br>
-					<p class="text-center" id="testResult" style='text-align:center; vertical-align:middle; font-size: 42px; align-items: center; color:#333;'/>
-					
-					<div id="info-cronotype" class="info-cronotype" style="color:#333;">
-					
-					</div>
-					
+					<p class="text-center" id="testResult" style='text-align:center; vertical-align:middle; font-size: 42px; align-items: center;'/>
     </body>
 </html>
 

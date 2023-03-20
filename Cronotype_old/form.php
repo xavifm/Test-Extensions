@@ -60,9 +60,7 @@
 
        function ShowQuestion(_index) 
         {
-            
-			$("#counterQuestion").show();
-			document.getElementById("indexQuestion").innerHTML = _index;
+            document.getElementById("indexQuestion").innerHTML = _index;
             document.getElementById("question").innerHTML = questionsArrayData[_index];
             var nextQuestion = document.getElementById("NextQuestion");
             var lastQuestion = document.getElementById("LastQuestion");
@@ -165,16 +163,9 @@
                 dataType: 'text',
                 data: { "GetTestResult": "true", "ResponsesFromTest": responsesFromTest },
                 success: function(response) { 
-                    //console.log(responsesFromTest); 
+                    console.log(responsesFromTest); 
                     var responseName = response.substring(response.indexOf(")")+1);
                     document.getElementById("testResult").innerHTML = responseName;
-					$("#counterQuestion").hide();
-
-					$("#testResult").html(responseName+"<br><img src='images/"+responseName+".png' style='padding: 10px; width: 300px' >");
-
-					$('#info-cronotype').load("API/"+responseName+".html");
-					//alert(responseName);
-					$("#SeeTestResult").hide();
                 }
             });
         }

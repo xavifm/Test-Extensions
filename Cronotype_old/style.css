@@ -1,3 +1,8 @@
+div {
+    background-color: white;
+    color: #abdbd7;
+}
+
 label.radio {
 cursor: pointer;
 }
@@ -41,18 +46,4 @@ box-shadow: none !important;
 .btn:active {
 outline: 0 !important;
 box-shadow: none !important;
-}
-
-.info-cronotype{
-	color: #6d7174;
-	width: 80%;
-	text-align: justify;
-}
-
-.txt-cronotype{
-	color: #a0a0a0 !important;
-}
-
-body{
-    /*color: #a0a0a0;*/
 }
