@@ -8,6 +8,12 @@
         echo $api->ConvertResponsesToClass($_POST["ResponsesFromTest"]);
     }
 
+    if($_POST["GetTestName"] == "true") 
+    {
+        $api = new EneagramaAPI();
+        echo $api->GetTestName();
+    }
+
     class EneagramaAPI 
     {
         public $questionsData;
@@ -19,6 +25,46 @@
         {
             $testResult = new TestResult();
             return $testResult->CalculateResult($_responsesData, $_pointsList);
+        }
+
+        public function GetTestName() 
+        {
+            $jsonFile = file_get_contents('Questionary.json', true);
+            $jsonResult = json_decode($jsonFile);
+            $indexJSON = 0;
+                
+            foreach ($jsonResult as &$configArray) 
+            {
+                if($indexJSON == 0) 
+                {
+                    $indexJSON++;
+                    continue;
+                }
+
+                return $configArray->parameters->QuizName;
+            }
+
+            return "ERROR";
+        }
+
+        public function GetMaxQuestionNumber() 
+        {
+            $jsonFile = file_get_contents('Questionary.json', true);
+            $jsonResult = json_decode($jsonFile);
+            $indexJSON = 0;
+                
+            foreach ($jsonResult as &$configArray) 
+            {
+                if($indexJSON == 0) 
+                {
+                    $indexJSON++;
+                    continue;
+                }
+                        
+                return $configArray->parameters->MaxListedQuestions;
+            }
+
+            return 0;
         }
 
         public function GetResponsesPointsArray() 

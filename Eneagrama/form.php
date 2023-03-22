@@ -5,6 +5,8 @@
         $api->responsesData = new ResponsesData();
         $questionsArray = $api->GetQuestionsArray();
         $responseArray = $api->GetResponsesArray();
+        $questionListSize = $api->GetMaxQuestionNumber();
+        echo $questionListSize;
 
         $index = 0;
         $size = sizeof($questionsArray);
@@ -13,7 +15,7 @@
 
         <script>
             var questionsIndex = 0;
-            var resetButton = document.getElementById("ResetTest");
+            var resetButton;
             var testFinished = false;
             const questionsArrayData = [];
             const responsesArrayData = [ [] <?php for ($i = 0; $i <= $size-1 ; $i++) { echo ",[]"; } ?>];
@@ -56,8 +58,7 @@
     <script>
 
        document.getElementById('form').reset();
-       document.getElementById("SeeTestResult").style.display = "none";
-       resetButton.style.display = "none";
+       BuildTest();
        document.getElementById("questionsSize").innerHTML = questionsArrayData.length-1;
        ShowQuestion(questionsIndex);
 
@@ -128,16 +129,7 @@
             }
 
         }
-
-        async function SetOption(index1, index2) 
-        {
-            console.log(responsesArrayData[index1][index2]);
-            responsesFromTest[index1] = index2;
-            console.log(responsesFromTest[index1]);
-            await new Promise(resolve => setTimeout(resolve, 100));
-            NextQuestion();
-        }
-
+        
         function NextQuestion() 
         {
             if(questionsIndex < <?php echo $size+1 ?>) 
@@ -156,9 +148,39 @@
             }
         }
 
+        async function SetOption(index1, index2) 
+        {
+            console.log(responsesArrayData[index1][index2]);
+            responsesFromTest[index1] = index2;
+            console.log(responsesFromTest[index1]);
+            await new Promise(resolve => setTimeout(resolve, 100));
+            NextQuestion();
+        }
+
         function ResetWebpage() 
         {
             window.location.reload();
+        }
+
+        function PlaceTestName() 
+        {
+            $.ajax({
+                url: 'API/EneagramaAPI.php',
+                type: 'post',
+                dataType: 'text',
+                data: { "GetTestName": "true" },
+                success: function(response) { 
+                    console.log(response); 
+                    var responseName = response.substring(response.indexOf(")")+1);
+                    document.getElementById("testName").innerHTML = responseName;
+                }
+            });
+        }
+
+        function BuildTest() 
+        {
+            PlaceTestName();
+            BuildQuestionary();
         }
 
         function GetOutput() 
@@ -186,4 +208,42 @@
 
         }
 
-    </script>
+        function BuildQuestionary() 
+        {
+            var html = '';
+            <?php
+                    for ($questionIndex = 0; $questionIndex <= $questionListSize; $questionIndex++) 
+                    {
+                            ?>
+					        html += '<label class="radio" id="label<?php echo $questionIndex ?>">';
+							html += '<input type="radio" onclick="SetOption(questionsIndex, <?php echo $questionIndex ?>)" name="question" id="res<?php echo $questionIndex ?>" value="option">';
+							html += '<span id="response<?php echo $questionIndex ?>" style="font-weight: normal;"> </span>';
+							html += '</label>';
+                            <?php
+                    }
+                    ?>
+                            html += '</form>';
+							html += '</div>';
+							html += '</div>';
+							html += '</div>';
+							html += '</div>';
+						    html += '</div>';
+						    html += '<div class="text-center" style="display: flex; justify-content: space-between;">';
+							html += '<button type="button" id="LastQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="LastQuestion();"> Anterior </button>';
+							html += '<button type="button" id="NextQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="NextQuestion();"> Siguiente </button>';
+							html += '<button type="button" id="SeeTestResult" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="GetOutput();"> See result </button>';
+							html += '<button type="button" id="ResetTest" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="ResetWebpage();"> Reset Test </button>';
+						    html += '</div>';
+						    html += '<br>';
+						    html += '</div>';
+					        html += '</div>';
+					        html += '<br>';
+					        html += '<p class="text-center" id="testResult" style="text-align:center; vertical-align:middle; font-size: 42px; align-items: center;"/>';
+
+                            document.getElementById("html").innerHTML += html;
+                            document.getElementById("SeeTestResult").style.display = "none";
+                            resetButton = document.getElementById("ResetTest");
+                            resetButton.style.display = "none";
+        }
+
+</script>

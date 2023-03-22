@@ -27,59 +27,7 @@
 											</h5>
 										</div>
 										<div class="ans ml-2">
-        
-            <?php
-                $jsonFile = file_get_contents('API/Questionary.json', true);
-                $jsonResult = json_decode($jsonFile);
-                $indexJSON = 0;
-                $questionListSize = 0;
-                    
-                foreach ($jsonResult as &$configArray) 
-                {
-                    if($indexJSON == 0) 
-                    {
-                        $indexJSON++;
-                        continue;
-                    }
-                            
-                    $questionListSize = $configArray->parameters->MaxListedQuestions;
-                    
-                    ?>
-                        <script>
-                            document.getElementById("testName").innerHTML = "<?php echo $configArray->parameters->QuizName; ?>";
-                        </script>
-                    <?php
-                    
-                }  
-
-                for ($questionIndex = 0; $questionIndex <= $questionListSize; $questionIndex++) 
-                {
-                    ?>
-											<label class="radio" id="label<?php echo $questionIndex ?>">
-												<input type="radio" onclick="SetOption(questionsIndex, <?php echo $questionIndex ?>)" name="question" id="res<?php echo $questionIndex ?>" value="option">
-													<span id="response<?php echo $questionIndex ?>" style="font-weight: normal;"> </span>
-												</label> 
-                    <?php
-                }
-            ?>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="text-center" style="display: flex; justify-content: space-between;">
-							<button type="button" id="LastQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="LastQuestion();"> Anterior </button>
-							<button type="button" id="NextQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="NextQuestion();"> Siguiente </button>
-							<button type="button" id="SeeTestResult" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="GetOutput();"> See result </button>
-							<button type="button" id="ResetTest" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="ResetWebpage();"> Reset Test </button>
-						</div>
-						<br>
-						</div>
-					</div>
-					<br>
-					<p class="text-center" id="testResult" style='text-align:center; vertical-align:middle; font-size: 42px; align-items: center;'/>
-    </body>
-</html>
-
+											<p id="html">
 <?php include 'form.php'; ?>
+</body>
+</html>
