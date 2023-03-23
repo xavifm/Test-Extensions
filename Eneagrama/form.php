@@ -130,7 +130,7 @@
 
         }
         
-        function NextQuestion() 
+        function NQuestion() 
         {
             if(questionsIndex < <?php echo $size+1 ?>) 
             {
@@ -139,7 +139,7 @@
             }
         }
 
-        function LastQuestion() 
+        function LQuestion() 
         {
             if(questionsIndex > 0) 
             {
@@ -154,7 +154,7 @@
             responsesFromTest[index1] = index2;
             console.log(responsesFromTest[index1]);
             await new Promise(resolve => setTimeout(resolve, 100));
-            NextQuestion();
+            NQuestion();
         }
 
         function ResetWebpage() 
@@ -228,9 +228,10 @@
 							html += '</div>';
 							html += '</div>';
 						    html += '</div>';
+                            html += '</div>';
 						    html += '<div class="text-center" style="display: flex; justify-content: space-between;">';
-							html += '<button type="button" id="LastQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="LastQuestion();"> Anterior </button>';
-							html += '<button type="button" id="NextQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="NextQuestion();"> Siguiente </button>';
+							html += '<button type="button" id="LastQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="LQuestion();"> Anterior </button>';
+							html += '<button type="button" id="NextQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="NQuestion();"> Siguiente </button>';
 							html += '<button type="button" id="SeeTestResult" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="GetOutput();"> See result </button>';
 							html += '<button type="button" id="ResetTest" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="ResetWebpage();"> Reset Test </button>';
 						    html += '</div>';
