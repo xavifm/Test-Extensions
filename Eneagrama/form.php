@@ -210,6 +210,7 @@
 
         function BuildQuestionary() 
         {
+            //pillar tots aquests elements de css que no deixa agafar i col.locar-los en JSON
             var html = '';
             <?php
                     for ($questionIndex = 0; $questionIndex <= $questionListSize; $questionIndex++) 
