@@ -239,7 +239,7 @@
 						    html += '</div>';
 					        html += '</div>';
 					        html += '<br>';
-					        html += '<p class="test-result" id="testResult"/>';
+					        html += '<p class="test-result" id="testResult" style="text-align:center; vertical-align:middle; font-size: 42px; align-items: center;"/>';
 
                             document.getElementById("html").innerHTML += html;
                             document.getElementById("SeeTestResult").style.display = "none";
