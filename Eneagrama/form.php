@@ -229,17 +229,17 @@
 							html += '</div>';
 						    html += '</div>';
                             html += '</div>';
-						    html += '<div class="text-center" style="display: flex; justify-content: space-between;">';
-							html += '<button type="button" id="LastQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="LQuestion();"> Anterior </button>';
-							html += '<button type="button" id="NextQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="NQuestion();"> Siguiente </button>';
-							html += '<button type="button" id="SeeTestResult" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="GetOutput();"> See result </button>';
-							html += '<button type="button" id="ResetTest" class="btn btn-primary btn-lg" style="background-color:#00AAA1;" onclick="ResetWebpage();"> Reset Test </button>';
+						    html += '<div class="button-region">';
+							html += '<button type="button" id="LastQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1" onclick="LQuestion();"> Anterior </button> <span>';
+							html += '<button type="button" id="NextQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1" onclick="NQuestion();"> Siguiente </button> <span>';
+							html += '<button type="button" id="SeeTestResult" class="btn btn-primary btn-lg" style="background-color:#00AAA1" onclick="GetOutput();"> See result </button> <span>';
+							html += '<button type="button" id="ResetTest" class="btn btn-primary btn-lg" style="background-color:#00AAA1" onclick="ResetWebpage();"> Reset Test </button>';
 						    html += '</div>';
 						    html += '<br>';
 						    html += '</div>';
 					        html += '</div>';
 					        html += '<br>';
-					        html += '<p class="text-center" id="testResult" style="text-align:center; vertical-align:middle; font-size: 42px; align-items: center;"/>';
+					        html += '<p class="test-result" id="testResult"/>';
 
                             document.getElementById("html").innerHTML += html;
                             document.getElementById("SeeTestResult").style.display = "none";
