@@ -63,7 +63,7 @@
        ShowQuestion(questionsIndex);
 
        function ShowQuestion(_index) 
-        {
+       {
             document.getElementById("indexQuestion").innerHTML = _index;
             document.getElementById("question").innerHTML = questionsArrayData[_index];
             var nextQuestion = document.getElementById("NextQuestion");
