@@ -132,11 +132,13 @@
         
         function NQuestion() 
         {
-            if(questionsIndex < <?php echo $size+1 ?>) 
+            if(responsesFromTest[questionsIndex] != null && questionsIndex < <?php echo $size+1 ?>) 
             {
                 questionsIndex++;
                 ShowQuestion(questionsIndex);
             }
+            else if(responsesFromTest[questionsIndex] == null)
+                alert("Falta responder esta pregunta!")
         }
 
         function LQuestion() 

@@ -106,7 +106,7 @@ label.radio input:checked + span {
 }
 
 .questionregion {
-    font-size: 20; 
+    font-size: 20px; 
     color: #3D322D; 
     font-weight: bold;
 }
