@@ -1,16 +1,13 @@
-div 
-{
+div {
     background-color: white;
     color: #abdbd7;
 }
 
-label.radio 
-{
+label.radio {
     cursor: pointer;
 }
 
-label.radio input 
-{
+label.radio input {
     position: absolute;
     top: 0; 
     left: 0;
@@ -18,8 +15,7 @@ label.radio input
     pointer-events: none;
 }
 
-label.radio span 
-{
+label.radio span {
     padding: 10px 0px;
     border: 1px solid #00AAA1;
     display: inline-block;
@@ -32,50 +28,81 @@ label.radio span
     text-transform: uppercase;
 }
 
-label.radio input:checked + span 
-{
+label.radio input:checked + span {
     border-color: #00AAA1;
     background-color: #00AAA1;
     color: #fff;
 }
 
-.ans 
-{
+.ans {
     text-align: center;
 }
 
-.btn:focus 
-{
+.btn:focus {
     outline: 0 !important;
     box-shadow: none !important;
 }
 
-.btn:active 
-{
+.btn:active {
     outline: 0 !important;
     box-shadow: none !important;
 }
 
-.test-result 
-{
+.test-result {
     text-align:center; 
     vertical-align:middle; 
     font-size: 42px; 
     align-items: center;
 }
 
-.button-region 
-{
+.button-region {
     justify-content: space-between;
 }
 
-.container-mt-5
-{
+.container-mt-5 {
     display: flex; 
     justify-content: center;
 }
 
-.col-lg-10 
-{
+.col-lg-10 {
     width: 100%;
+}
+
+.btn-primary {
+    background-color: #00AAA1;
+}
+
+.btn-primary:hover {
+    background-color: #00AAA1;
+}
+
+.btn-primary:focus {
+    background-color: #00AAA1;
+}
+
+.responsebtn {
+    font-weight: normal;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.maincontent {
+    display: flex; 
+    justify-content: center;
+}
+
+.testcontent {
+    width: 100%;
+}
+
+.insidetestregion {
+    color: #00aaa0;
+}
+
+.questionregion {
+    font-size: 20; 
+    color: #3D322D; 
+    font-weight: bold;
 }

@@ -210,7 +210,6 @@
 
         function BuildQuestionary() 
         {
-            //pillar tots aquests elements de css que no deixa agafar i col.locar-los en JSON
             var html = '';
             <?php
                     for ($questionIndex = 0; $questionIndex <= $questionListSize; $questionIndex++) 
@@ -218,29 +217,19 @@
                             ?>
 					        html += '<label class="radio" id="label<?php echo $questionIndex ?>">';
 							html += '<input type="radio" onclick="SetOption(questionsIndex, <?php echo $questionIndex ?>)" name="question" id="res<?php echo $questionIndex ?>" value="option">';
-							html += '<span id="response<?php echo $questionIndex ?>" style="font-weight: normal;"> </span>';
+							html += '<span class="responsebtn" id="response<?php echo $questionIndex ?>"> </span>';
 							html += '</label>';
                             <?php
                     }
                     ?>
-                            html += '</form>';
-							html += '</div>';
-							html += '</div>';
-							html += '</div>';
-							html += '</div>';
-						    html += '</div>';
-                            html += '</div>';
 						    html += '<div class="button-region">';
-							html += '<button type="button" id="LastQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1" onclick="LQuestion();"> Anterior </button> <span>';
-							html += '<button type="button" id="NextQuestion" class="btn btn-primary btn-lg" style="background-color:#00AAA1" onclick="NQuestion();"> Siguiente </button> <span>';
-							html += '<button type="button" id="SeeTestResult" class="btn btn-primary btn-lg" style="background-color:#00AAA1" onclick="GetOutput();"> See result </button> <span>';
-							html += '<button type="button" id="ResetTest" class="btn btn-primary btn-lg" style="background-color:#00AAA1" onclick="ResetWebpage();"> Reset Test </button>';
-						    html += '</div>';
+							html += '<button type="button" id="LastQuestion" class="btn btn-primary btn-lg" onclick="LQuestion();"> Anterior </button> <span>';
+							html += '<button type="button" id="NextQuestion" class="btn btn-primary btn-lg" onclick="NQuestion();"> Siguiente </button> <span>';
+							html += '<button type="button" id="SeeTestResult" class="btn btn-primary btn-lg" onclick="GetOutput();"> See result </button> <span>';
+							html += '<button type="button" id="ResetTest" class="btn btn-primary btn-lg" onclick="ResetWebpage();"> Reset Test </button>';
 						    html += '<br>';
-						    html += '</div>';
-					        html += '</div>';
 					        html += '<br>';
-					        html += '<p class="test-result" id="testResult" style="text-align:center; vertical-align:middle; font-size: 42px; align-items: center;"/>';
+					        html += '<p class="test-result" id="testResult"/>';
 
                             document.getElementById("html").innerHTML += html;
                             document.getElementById("SeeTestResult").style.display = "none";
