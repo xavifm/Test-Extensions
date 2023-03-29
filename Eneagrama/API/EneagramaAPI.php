@@ -14,6 +14,24 @@
         echo $api->GetTestName();
     }
 
+    if($_POST["GetQuestionsArray"] == "true") 
+    {
+        $api = new EneagramaAPI();
+        echo json_encode($api->GetQuestionsArray());
+    }
+
+    if($_POST["GetResponsesArray"] == "true") 
+    {
+        $api = new EneagramaAPI();
+        echo json_encode($api->GetResponsesArray());
+    }
+
+    if($_POST["GetMaxQuestionNumber"] == "true") 
+    {
+        $api = new EneagramaAPI();
+        echo $api->GetMaxQuestionNumber();
+    }
+
     class EneagramaAPI 
     {
         public $questionsData;
