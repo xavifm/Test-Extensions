@@ -6,7 +6,6 @@
         $questionsArray = $api->GetQuestionsArray();
         $responseArray = $api->GetResponsesArray();
         $questionListSize = $api->GetMaxQuestionNumber();
-        echo $questionListSize;
 
         $index = 0;
         $size = sizeof($questionsArray);

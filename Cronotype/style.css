@@ -3,47 +3,232 @@ div {
     color: #abdbd7;
 }
 
+html, body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
 label.radio {
-cursor: pointer;
+    cursor: pointer;
 }
 
 label.radio input {
-position: absolute;
-top: 0; 
-left: 0;
-visibility: hidden;
-pointer-events: none;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 label.radio span {
-padding: 10px 0px;
-border: 1px solid #00AAA1;
-display: inline-block;
-color: black;
-width: 500px;
-text-align: center;
+    padding: 10px 0px;
+    border: 1px solid #00AAA1;
+    display: inline-block;
+    color: black;
+    width: 500px;
+    text-align: center;
 
-border-radius: 3px;
-margin-top: 7px;
-text-transform: uppercase;
+    border-radius: 3px;
+    margin-top: 7px;
+    text-transform: uppercase;
 }
 
 label.radio input:checked + span {
-border-color: #00AAA1;
-background-color: #00AAA1;
-color: #fff;
+    border-color: #00AAA1;
+    background-color: #00AAA1;
+    color: black;
 }
 
 .ans {
-text-align: center;
+    text-align: center;
 }
 
 .btn:focus {
-outline: 0 !important;
-box-shadow: none !important;
+    outline: 0 !important;
+    box-shadow: none !important;
 }
 
 .btn:active {
-outline: 0 !important;
-box-shadow: none !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.test-result {
+    text-align:center; 
+    vertical-align:middle; 
+    font-size: 42px; 
+    align-items: center;
+    color:#333;
+}
+
+.button-region {
+    justify-content: space-between;
+}
+
+.container-mt-5 {
+    display: flex; 
+    justify-content: center;
+}
+
+.col-lg-10 {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #00AAA1;
+}
+
+.btn-primary:hover {
+    background-color: #00AAA1;
+}
+
+.btn-primary:focus {
+    background-color: #00AAA1;
+}
+
+.responsebtn {
+    font-weight: normal;
+}
+
+.logo {
+    padding: 10px;
+    width: 200px
+}
+
+.maincontent {
+    display: flex; 
+    justify-content: center;
+}
+
+.testcontent {
+    width: 100%;
+}
+
+.insidetestregion {
+    color: #00AAA1;
+}
+
+.questionregion {
+    font-size: 20px; 
+    color: #3D322D; 
+    font-weight: bold;
+}
+
+/*Mobile adaptation portrait*/
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+    div {
+        background-color: white;
+        color: #abdbd7;
+    }
+    
+    html, body {
+        background-color: white;
+        overflow-x: hidden;
+    }
+    
+    label.radio {
+        cursor: pointer;
+    }
+    
+    label.radio input {
+        position: absolute;
+        top: 0; 
+        left: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    
+    label.radio span {
+        padding: 10px 0px;
+        border: 1px solid #00AAA1;
+        display: inline-block;
+        color: black;
+        width: 300px;
+        text-align: center;
+    
+        border-radius: 3px;
+        margin-top: 7px;
+        text-transform: uppercase;
+    }
+    
+    label.radio input:checked + span {
+        border-color: #00AAA1;
+        background-color: #00AAA1;
+        color: #fff;
+    }
+    
+    .ans {
+        text-align: center;
+    }
+    
+    .btn:focus {
+        outline: 0 !important;
+        box-shadow: none !important;
+    }
+    
+    .btn:active {
+        outline: 0 !important;
+        box-shadow: none !important;
+    }
+    
+    .test-result {
+        text-align:center; 
+        vertical-align:middle; 
+        font-size: 42px; 
+        align-items: center;
+        color:#333;
+    }
+    
+    .button-region {
+        justify-content: space-between;
+    }
+    
+    .container-mt-5 {
+        display: flex; 
+        justify-content: center;
+    }
+    
+    .col-lg-10 {
+        width: 100%;
+    }
+    
+    .btn-primary {
+        background-color: #00AAA1;
+    }
+    
+    .btn-primary:hover {
+        background-color: #00AAA1;
+    }
+    
+    .btn-primary:focus {
+        background-color: #00AAA1;
+    }
+    
+    .responsebtn {
+        font-weight: normal;
+    }
+    
+    .logo {
+        padding: 10px;
+        width: 200px
+    }
+    
+    .maincontent {
+        display: flex; 
+        justify-content: center;
+    }
+    
+    .testcontent {
+        width: 100%;
+    }
+    
+    .insidetestregion {
+        color: #00aaa0;
+    }
+    
+    .questionregion {
+        font-size: 20; 
+        color: #3D322D; 
+        font-weight: bold;
+    }
 }
