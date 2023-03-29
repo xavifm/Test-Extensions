@@ -1,0 +1,3670 @@
+{
+  "questions": 
+  [{
+  "question1":{
+    "title":"Por lo general me consideran una persona seria y sensata, y una vez dicho y hecho todo, supongo que lo soy.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question2":{
+    "title":"Mi auténtico interés por los demás hace que me involucre profundamente con ellos, con sus esperanzas, sus sueños y necesidades.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question3":{
+    "title":"Me considero una persona muy competente: en realidad, me molesta no ser eficaz y eficiente.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question4":{
+    "title":"Muchos me consideran una persona enigmática, difícil y contradictoria, ¡y eso me gusta de mí!",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question5":{
+    "title":"Me gusta profundizar en las cosas, y estudio detenidamente los detalles hasta que lo he entendido todo lo mejor posible.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question6":{
+    "title":"Me atrae la autoridad, pero al mismo tiempo desconfío de ella.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question7":{
+    "title":"Me encanta viajar y descubrir diferentes tipos de comidas, personas y experiencias, ¡todo el fabuloso torbellino de la vida!",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question8":{
+    "title":"Soy extraordinariamente independiente y no me gusta depender de nadie para lo que necesito.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question9":{
+    "title":"Parece que lo que gusta de mí a las personas es que se sienten seguras a mi lado.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question10":{
+    "title":"Siempre he intentado ser sincero y objetivo respecto a mí mismo, y estoy decidido a ser fiel a mi conciencia, cueste lo que cueste.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question11":{
+    "title":"Me resulta natural ser amistoso; entablo conversaciones con facilidad y me tuteo con todo el mundo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question12":{
+    "title":"Cuando las cosas me van bien, prácticamente «brillo» con una especie de alegría interior por ser quien soy y tener la vida que tengo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question13":{
+    "title":"Tiendo a obsesionarme con mis sentimientos negativos un buen tiempo antes de liberarme de ellos.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question14":{
+    "title":"Soy una persona muy reservada, no dejo entrar a muchas personas en mi mundo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question15":{
+    "title":"Soy muy emotivo, pero no suelo demostrar mis sentimientos, a no ser a mis íntimos, e incluso a ellos, no siempre.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question16":{
+    "title":"Mi agenda suele estar llena, y me gusta así: la hierba no crecerá bajo mis pies.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question17":{
+    "title":"Creo que hay que «romper algunos huevos para hacer una tortilla»",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question18":{
+    "title":"No me importa estar con gente ni me importa estar solo; cualquiera de las dos cosas me va bien, siempre que esté en paz conmigo mismo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question19":{
+    "title":"Si bien una parte de mí podría ser alocada, en términos generales no ha sido precisamente ese mi estilo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question20":{
+    "title":"He descubierto que las personas reaccionan con simpatía cuando les presto atención y les doy aliento.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question21":{
+    "title":"Trato de presentarme ante los demás bajo la mejor luz posible, pero eso es lo que hace todo el mundo, ¿verdad?.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question22":{
+    "title":"Suelo sentirme solo, incluso cuando estoy con personas amigas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question23":{
+    "title":"No me siento muy importante ni poderoso, más bien pequeño e invisible: ¡Sería un buen espía!.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question24":{
+    "title":"Si cometo un error temo que todos me van a criticar de inmediato.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question25":{
+    "title":"Lo importante para mi es la emoción y la variedad, no la comodidad ni la precaución, aunque aprovecho tas comodidades siempre que las encuentro.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question26":{
+    "title":"Cuando quiero a las personas las considero «mi gente» y siento la necesidad de cuidar de sus intereses.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question27":{
+    "title":"He encontrado un cierto equilibrio en mí vida, y no veo ningún motivo para estropearlo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question28":{
+    "title":"Tengo la impresión de que tengo un juez en la cabeza: a veces este juez es sabio y perspicaz, pero muchas otras es simplemente severo y duro.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question29":{
+    "title":"No puedo ver un perro extraviado en la calle sin desear llevármelo a casa.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question30":{
+    "title":"Mis sentimientos tienden a serme ajenos; siento las cosas con mucha intensidad por un instante y, a continuación, simplemente sigo con lo mío.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question31":{
+    "title":"Si me critican o entienden mal, tiendo a cerrarme en mí mismo y a ponerme de mal humor.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question32":{
+    "title":"Si los demás supieran las cosas que pienso la mayor parte del tiempo creerían que estoy loco.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question33":{
+    "title":"Me siento más seguro haciendo lo que se espera de mí que obrando por mi cuenta.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question34":{
+    "title":"Mi mente no para de parlotear, a veces me parece que estoy pensando en diez cosas al mismo tiempo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question35":{
+    "title":"Sé cómo obtener resultados, sé cómo recompensar y apremiar a las personas para que hagan las cosas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question36":{
+    "title":"Estar «cómodo» en todo el sentido de la palabra me atrae muchísimo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question37":{
+    "title":"Creo que he pagado un elevado precio por tratar de ser perfecto.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question38":{
+    "title":"Me siento bien por ser una persona considerada y generosa.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question39":{
+    "title":"Es importante para mí sentir que tengo éxito, aunque aún no sea el éxito que deseo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question40":{
+    "title":"Me cuesta participar en proyectos si no tengo el control creativo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question41":{
+    "title":"Sólo teniendo la información correcta se puede tomar una decisión racional, pero, claro, la mayoría de la gente no es muy racional.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question42":{
+    "title":"Es posible que no siempre esté de acuerdo con las reglas, y que no siempre las siga, pero deseo conocerlas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question43":{
+    "title":"Una cosa que no soporto de ninguna manera es el aburrimiento, y procuro no aburrirme nunca.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question44":{
+    "title":"No siento mucha compasión por los débiles y los indecisos: la debilidad sólo atrae problemas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question45":{
+    "title":"Prefiero ceder antes que armar una escena.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question46":{
+    "title":"Me gusta reírme como a cualquiera; ¡debería hacerlo más a menudo!",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question47":{
+    "title":"Me cuesta creer las muchas cosas que he hecho por la gente, pero me molesta mucho que no den señales de darse cuenta o de que les importe.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question48":{
+    "title":"Para bien o para mal, soy bueno para encubrir mis inseguridades; nadie adivina jamás qué siento realmente.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question49":{
+    "title":"Tiendo a no seguir las reglas ni las expectativas porque quiero poner mi sello especial en todo lo que hago.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question50":{
+    "title":"Mi familia me encuentra algo raro o excéntrico; ciertamente me han dicho que debo salir más.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question51":{
+    "title":"Tiendo a tener primeras impresiones fuertes sobre las personas, y me cuesta cambiarlas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question52":{
+    "title":"Me comprometo bastante cuando estoy en una relación, pero cuando se acaba, paso a otra cosa.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question53":{
+    "title":"Tengo una voluntad fuerte y no renuncio ni me echo atrás fácilmente.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question54":{
+    "title":"No sé exactamente cómo lo hago, pero no me dejo deprimir por las cosas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question55":{
+    "title":"Mis principios e ideales me estimulan hacia mayores logros y dan sentido y valor a mi vida.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question56":{
+    "title":"Es cierto que suelo hacer más por los demás de lo que debiera; doy demasiado y no pienso en mí lo suficiente.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question57":{
+    "title":"Deseo causar buena impresión, de modo que normalmente soy cortés, educado y amigable.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question58":{
+    "title":"Según muchos criterios, soy bastante dramático y temperamental.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question59":{
+    "title":"Hablo bastante cuando quiero, pero la mayor parte del tiempo prefiero limitarme a observar la locura que me rodea.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question60":{
+    "title":"Hay unas cuantas personas a las que admiro de veras, son algo así como héroes para mí.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question61":{
+    "title":"Soy curioso y arriesgado; por lo general, soy el primero entre mis amigos en probar cualquier cosa nueva e interesante.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question62":{
+    "title":"No hay nada que me haga sentir más orgulloso que ver actuar por su cuenta a alguien a quien he tomado bajo mi protección.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question63":{
+    "title":"Soy bastante fácil de complacer y normalmente creo que lo que tengo es suficiente para mí.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question64":{
+    "title":"No entiendo por qué tantas personas tienen valores morales tan laxos.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question65":{
+    "title":"Con frecuencia me sorprendo intentando conquistar a las personas, sobre todo si al principio se muestran indiferentes a mí.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question66":{
+    "title":"Sé lo bien que les va a mis amigos y colegas, y tiendo a compararme con ellos.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question67":{
+    "title":"Tiendo a pasar bastante tiempo imaginando situaciones y conversaciones que no han ocurrido necesariamente.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question68":{
+    "title":"Si hay que resolver un problema, que me dejen trabajarlo solo y saldré con la respuesta.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question69":{
+    "title":"No me gusta tomar grandes decisiones, pero ciertamente no deseo que otra persona las tome por mí.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question70":{
+    "title":"Cuando ya no disfruto en una actividad dejo de hacerla.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question71":{
+    "title":"Tengo un lado tierno, incluso algo sentimental, que muestro a muy pocas personas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question72":{
+    "title":"Me han dicho que parezco distraído; la verdad es que comprendo las cosas, pero no quiero reaccionar a ellas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question73":{
+    "title":"Depende tanto de mí que se hagan las cosas que tengo que ser más organizado y metódico que los demás.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question74":{
+    "title":"Me produce una alegría especial recibir en casa y atender a mis amigos y familiares.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question75":{
+    "title":"Suelo esforzarme por ser el mejor en lo que hago; sí no puedo sobresalir en algo, por lo general no me molesto en hacerlo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question76":{
+    "title":"Ansío que alguien me rescate y me arranque de toda esta monotonía.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question77":{
+    "title":"Pensándolo bien, no se puede ser más raro que aquellos que se comportan de manera normal.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question78":{
+    "title":"Algunas personas me consideran muy inquieto y nervioso, ¡pero no saben ni la mitad!.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question79":{
+    "title":"No soy sólo una «persona divertida», también tengo mi lado serio, incluso oscuro, aunque no me gusta mucho ir allí.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question80":{
+    "title":"Las personas que me conocen me agradecen que les hable francamente y les diga exactamente lo que pienso.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question81":{
+    "title":"No me considero tozudo, pero me han dicho que lo soy bastante cuando he tomado una decisión.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question82":{
+    "title":"Me imagino que tengo una misión personal, tal vez una vocación para algo superior, y creo que durante mi vida podría realizar algo extraordinario.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question83":{
+    "title":"Sé ser amable y sustentador, pero hay en mí más dureza de la que se podría suponer.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question84":{
+    "title":"A veces he tenido que tomar unos pocos atajos para conseguir mis objetivos.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question85":{
+    "title":"Cuando las cosas se ponen difíciles, tiendo a desmoronarme y renunciar; tal vez tiro la toalla con demasiada facilidad.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question86":{
+    "title":"Tiendo a tardar muchísimo en perfeccionar los proyectos en que trabajo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question87":{
+    "title":"Sé cuánto enredo armo yo, de modo que encuentro lógico desconfiar de lo que pretenden los demás.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question88":{
+    "title":"Soy bueno para lo general, no tanto para los detalles; disfruto más teniendo muchas ideas que en ocuparme de ponerlas en práctica.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question89":{
+    "title":"He tenido que trabajar mucho por todo lo que tengo; creo que las dificultades son buenas porque te endurecen y te hacen tener claro lo que deseas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question90":{
+    "title":"Muchas personas se ponen frenéticas con demasiada facilidad; yo soy mucho más ecuánime.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question91":{
+    "title":"Detesto los errores, por lo tanto tiendo a ser muy minucioso para asegurarme de que las cosas se hagan bien.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question92":{
+    "title":"Soy capaz de expresar mis sentimientos por las personas con más franqueza que la mayoría.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question93":{
+    "title":"Cuando me siento inseguro puedo ser algo reservado y frío con las personas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question94":{
+    "title":"Soy capaz de perdonarme casi cualquier cosa, menos el mal gusto.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question95":{
+    "title":"La mayoría de las personas son increíblemente ignorantes; es asombroso que algo funcione.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question96":{
+    "title":"Deseo fiarme de las personas, pero suelo sorprenderme desconfiando de sus motivos.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question97":{
+    "title":"Cuando de veras deseo algo, normalmente encuentro la manera de obtenerlo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question98":{
+    "title":"Me considero un desafiador, una persona que saca a las personas de su zona de comodidad para que hagan todo lo que son capaces de hacer.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question99":{
+    "title":"Hay que aceptar lo que trae la vida, ya que de todos modos no es mucho lo que se puede hacer al respecto.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question100":{
+    "title":"Gran parte de mi vida he creído que lo que está bien, está bien, y que lo que está mal, está mal, y ya está.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question101":{
+    "title":"Hago un esfuerzo especial por saber qué les pasa a las personas que quiero.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question102":{
+    "title":"Claro que me molesta que los demás no reconozcan la excelencia en lo que hago.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question103":{
+    "title":"Por lo general, no me gusta trabajar demasiado cerca de los demás.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question104":{
+    "title":"Sé mucho sobre muchas cosas, y en algunos campos me considero un experto.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question105":{
+    "title":"Soy muy trabajador, de verdad: no paro hasta terminar un trabajo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question106":{
+    "title":"Las cosas me abaten de vez en cuando, pero muy pronto levanto cabeza.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question107":{
+    "title":"Mi sentido del humor es prosaico, incluso grosero a veces, aunque creo que la mayoría de las personas son demasiado remilgadas y sensibles.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question108":{
+    "title":"Me es fácil comprender diferentes puntos de vista y tiendo más a estar de acuerdo que en desacuerdo con las personas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question109":{
+    "title":"Me cuesta muchísimo dejar que las cosas se hagan sólo suficientemente bien.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question110":{
+    "title":"Me considero algo así como un «sanador de corazones rotos»",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question111":{
+    "title":"Soy más adaptable que la mayoría: si las cosas no van bien, sé cambiar mi comportamiento para obtener los resultados que deseo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question112":{
+    "title":"Conocerme a mí mismo y ser fiel a mis necesidades emocionales han sido motivaciones muy importantes para mí.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question113":{
+    "title":"Soy muy curioso y me gusta investigar por qué las cosas son como son; incluso las cosas obvias no son tan obvias si se miran bien.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question114":{
+    "title":"Cuando tengo que tomar una decisión importante, consulto la opinión de las personas en que confío.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question115":{
+    "title":"Uno de mis principales problemas es que me distraigo con facilidad y me disperso demasiado.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question116":{
+    "title":"Soy capaz de violentos estallidos de cólera, pero se pasan.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question117":{
+    "title":"Prefiero acentuar lo positivo antes que insistir en lo negativo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question118":{
+    "title":"Han recaído muchas responsabilidades sobre mis hombros: si no hubiera estado a la altura de las circunstancias, sólo Dios sabe lo que habría ocurrido.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question119":{
+    "title":"Con frecuencia mi salud y mi economía han sufrido debido a que antepongo las necesidades e intereses de los demás a los míos.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question120":{
+    "title":"Siempre tengo un objetivo en mente, y sé motivarme para conseguirlo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question121":{
+    "title":"No me gusta tomar el mando ni obedecer órdenes.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question122":{
+    "title":"Mi mente es tan vehemente y activa que a veces me parece que está ardiendo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question123":{
+    "title":"Es muy extraño: puedo ser escéptico, incluso cínico, acerca de todo tipo de cosas, y de pronto me dejo engañar totalmente en algo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question124":{
+    "title":"Tiendo a gastar más dinero del que probablemente debería.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question125":{
+    "title":"Me siento más vivo cuando hago lo que los demás creen imposible: Me gusta arriesgarme y comprobar si soy capaz de vencer los peligros.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question126":{
+    "title":"Tengo lo que se podría llamar una filosofía de la vida que me orienta y me da muchísimo consuelo en las épocas difíciles.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+ },
+ "question127":{
+    "title":"Me conmueve muchísimo la nobleza humana y que se conserve el buen talante en las dificultades.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "1", "-1"
+       ],
+       [
+          "1", "+1"
+       ],
+       [
+          "1", "+2"
+       ],
+       [
+          "1", "+3"
+       ],
+       [
+          "1", "+4"
+       ]
+    ]
+ },
+ "question128":{
+    "title":"Me encanta desvivirme para que las personas se sientan acogidas y apreciadas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "2", "-1"
+       ],
+       [
+          "2", "+1"
+       ],
+       [
+          "2", "+2"
+       ],
+       [
+          "2", "+3"
+       ],
+       [
+          "2", "+4"
+       ]
+    ]
+ },
+ "question129":{
+    "title":"Tengo una vena de adicción al trabajo; me siento perdido si no estoy realizando cosas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "3", "-1"
+       ],
+       [
+          "3", "+1"
+       ],
+       [
+          "3", "+2"
+       ],
+       [
+          "3", "+3"
+       ],
+       [
+          "3", "+4"
+       ]
+    ]
+ },
+ "question130":{
+    "title":"Soy muy consciente de mis intuiciones, tenga o no el valor para seguirlas.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "4", "-1"
+       ],
+       [
+          "4", "+1"
+       ],
+       [
+          "4", "+2"
+       ],
+       [
+          "4", "+3"
+       ],
+       [
+          "4", "+4"
+       ]
+    ]
+ },
+ "question131":{
+    "title":"Me concentro tanto en lo que hago que suelo no enterarme del paso del tiempo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "5", "-1"
+       ],
+       [
+          "5", "+1"
+       ],
+       [
+          "5", "+2"
+       ],
+       [
+          "5", "+3"
+       ],
+       [
+          "5", "+4"
+       ]
+    ]
+ },
+ "question132":{
+    "title":"Ansiedad podría ser mi segundo apellido.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "6", "-1"
+       ],
+       [
+          "6", "+1"
+       ],
+       [
+          "6", "+2"
+       ],
+       [
+          "6", "+3"
+       ],
+       [
+          "6", "+4"
+       ]
+    ]
+ },
+ "question133":{
+    "title":"Me encanta estar con gente, siempre que quieran ir donde yo voy.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "7", "-1"
+       ],
+       [
+          "7", "+1"
+       ],
+       [
+          "7", "+2"
+       ],
+       [
+          "7", "+3"
+       ],
+       [
+          "7", "+4"
+       ]
+    ]
+ },
+ "question134":{
+    "title":"Normalmente a alguien tiene que tocarle la situación desventajosa, y no quiero ser yo.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "8", "-1"
+       ],
+       [
+          "8", "+1"
+       ],
+       [
+          "8", "+2"
+       ],
+       [
+          "8", "+3"
+       ],
+       [
+          "8", "+4"
+       ]
+    ]
+ },
+ "question135":{
+    "title":"Durante el día hago todo lo que hay que hacer, pero cuando se acaba el día sé relajarme y tomarme las cosas con calma.",
+    "responses":[
+       "Casi nunca",
+       "Rara vez cierto",
+       "Algo cierto",
+       "Generalmente cierto",
+       "Muy cierto"
+    ],
+    "points":[
+       [
+          "9", "-1"
+       ],
+       [
+          "9", "+1"
+       ],
+       [
+          "9", "+2"
+       ],
+       [
+          "9", "+3"
+       ],
+       [
+          "9", "+4"
+       ]
+    ]
+  }
+  }],
+    "config":
+    {
+        "parameters": 
+        {
+            "ResultText": [
+              ["1", "Modelo 1"],
+              ["2", "Modelo 2"],
+              ["3", "Modelo 3"],
+              ["4", "Modelo 4"],
+              ["5", "Modelo 5"],
+              ["6", "Modelo 6"],
+              ["7", "Modelo 7"],
+              ["8", "Modelo 8"],
+              ["9", "Modelo 9"]
+            ],
+
+            "QuizName": "Descubre tu Eneagrama",
+            "MaxListedQuestions": 6
+        }
+    }
+  }

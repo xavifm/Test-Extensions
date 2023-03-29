@@ -7,9 +7,9 @@
 		<link rel="stylesheet" href="style.css"/>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
 		</script>
-		<title> Cronotype </title>
+		<title> Eneagrama </title>
 	</head>
-	<body>
+	<body style="background-color: #abdbd7">
 		<img src="images/logo.png" class="logo">
 		<div class="col-12 col-md-12">
 			<div class="container mt-5 maincontent">
