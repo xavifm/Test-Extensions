@@ -1,0 +1,314 @@
+\hypertarget{form_8php}{}\doxysection{C\+:/xampp/htdocs/hacktua/\+Hacktua-\/\+Extensions/\+Cronotype/form.php File Reference}
+\label{form_8php}\index{C:/xampp/htdocs/hacktua/Hacktua-\/Extensions/Cronotype/form.php@{C:/xampp/htdocs/hacktua/Hacktua-\/Extensions/Cronotype/form.php}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{form_8php_a37be7a9a089bac1b88fcc7cdf3226ecd}{NQuestion}} ()
+\item 
+\mbox{\hyperlink{form_8php_a266061fec2b5e41a6bcb2d2299cff85e}{LQuestion}} ()
+\item 
+async \mbox{\hyperlink{form_8php_ae8d0d6edc9d9530c182fc9b45bbdbab7}{Set\+Option}} (index1, index2)
+\item 
+\mbox{\hyperlink{form_8php_a19b52921e0a3554d6c30b4874bd47f05}{Reset\+Webpage}} ()
+\item 
+\mbox{\hyperlink{form_8php_accc5e75de79ef0d48b7c63981f6a12d5}{Place\+Test\+Name}} ()
+\item 
+\mbox{\hyperlink{form_8php_a7370154a313b82b6153ef4a9e3be5576}{Build\+Test}} ()
+\item 
+\mbox{\hyperlink{form_8php_a767196c61c8bdd62a1104389d9b74673}{Get\+Output}} ()
+\item 
+\mbox{\hyperlink{form_8php_a3956ce0edffdebc674bcb39608a763ba}{Build\+Questionary}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{form_8php_afce321e6f53c241037f871b50680cf1c}{\$api}} = new \mbox{\hyperlink{class_cronotype_a_p_i}{Cronotype\+API}}()
+\item 
+\$api \mbox{\hyperlink{form_8php_ae889eab876e09debc6c59c0e8e7d9061}{responses\+Data}} = new \mbox{\hyperlink{class_responses_data}{Responses\+Data}}()
+\item 
+\mbox{\hyperlink{form_8php_a371f2d425321fa0b78000f18261ec866}{\$questions\+Array}} = \$api-\/$>$Get\+Questions\+Array()
+\item 
+\mbox{\hyperlink{form_8php_a3e5df96978e86d1151f35216c008d5e1}{\$response\+Array}} = \$api-\/$>$Get\+Responses\+Array()
+\item 
+\mbox{\hyperlink{form_8php_a4149429f9ce3abbd81fc852d5aca2e67}{\$question\+List\+Size}} = \$api-\/$>$Get\+Max\+Question\+Number()
+\item 
+\mbox{\hyperlink{form_8php_a23e53dfd2b001b81c9946fa05ec90e6f}{\$index}} = 0
+\item 
+\mbox{\hyperlink{form_8php_af594986e4618a8d6a5d7566617f583c6}{\$size}} = sizeof(\$questions\+Array)
+\item 
+for( \$i=0;\$i$<$=\$size-\/1 ;\$i++) \mbox{\hyperlink{form_8php_af016dedd206ffd9b538f66adc17b412b}{foreach}} ( \$questions\+Array as \$question)
+\item 
+\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}
+\item 
+\mbox{\hyperlink{form_8php_ad435b96759e032fd2fdd447d13ce5d85}{check\+Element}} = document.\+get\+Element\+By\+Id(\char`\"{}res\char`\"{} + String(\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}))
+\item 
+\mbox{\hyperlink{form_8php_a8ab7bcb35ce5bba05608c72da6b4a0d3}{response}} = document.\+get\+Element\+By\+Id(\char`\"{}response\char`\"{} + String(\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}))
+\item 
+if(responses\+Array\+Data\mbox{[}\+\_\+index\mbox{]}\mbox{[}0\mbox{]}==null) \mbox{\hyperlink{form_8php_a18fb1fd297a80c7e3732f0dbe18354c4}{else}} question style \mbox{\hyperlink{form_8php_ac81a667efb65229d1fdf7c874a7c373f}{display}} = \char`\"{}\char`\"{}
+\item 
+if(responses\+Array\+Data\mbox{[}\+\_\+index\mbox{]}\mbox{[}\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}\mbox{]}==null) \mbox{\hyperlink{form_8php_a18fb1fd297a80c7e3732f0dbe18354c4}{else}}
+\item 
+\mbox{\hyperlink{form_8php_a8ab7bcb35ce5bba05608c72da6b4a0d3}{response}} \mbox{\hyperlink{form_8php_afa9cdaf8f3e9a7f4da05a90584be63e2}{inner\+HTML}} = responses\+Array\+Data\mbox{[}\+\_\+index\mbox{]}\mbox{[}\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}\mbox{]}
+\item 
+\mbox{\hyperlink{form_8php_a9a2dc022bbad987486d73631ac8a525a}{response\+Check}} = document.\+get\+Element\+By\+Id(\char`\"{}res\char`\"{} + String(\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}))
+\item 
+if(responses\+From\+Test\mbox{[}\+\_\+index\mbox{]} !=null) \mbox{\hyperlink{form_8php_a18fb1fd297a80c7e3732f0dbe18354c4}{else}} \mbox{\hyperlink{form_8php_a9a2dc022bbad987486d73631ac8a525a}{response\+Check}} \mbox{\hyperlink{form_8php_a6149b196784ea6cc1b19d0b4d8521a78}{checked}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{form_8php_a3956ce0edffdebc674bcb39608a763ba}\label{form_8php_a3956ce0edffdebc674bcb39608a763ba}} 
+\index{form.php@{form.php}!BuildQuestionary@{BuildQuestionary}}
+\index{BuildQuestionary@{BuildQuestionary}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{BuildQuestionary()}{BuildQuestionary()}}
+{\footnotesize\ttfamily Build\+Questionary (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00222}{222}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a7370154a313b82b6153ef4a9e3be5576}\label{form_8php_a7370154a313b82b6153ef4a9e3be5576}} 
+\index{form.php@{form.php}!BuildTest@{BuildTest}}
+\index{BuildTest@{BuildTest}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{BuildTest()}{BuildTest()}}
+{\footnotesize\ttfamily Build\+Test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00189}{189}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a767196c61c8bdd62a1104389d9b74673}\label{form_8php_a767196c61c8bdd62a1104389d9b74673}} 
+\index{form.php@{form.php}!GetOutput@{GetOutput}}
+\index{GetOutput@{GetOutput}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{GetOutput()}{GetOutput()}}
+{\footnotesize\ttfamily Get\+Output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00196}{196}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a266061fec2b5e41a6bcb2d2299cff85e}\label{form_8php_a266061fec2b5e41a6bcb2d2299cff85e}} 
+\index{form.php@{form.php}!LQuestion@{LQuestion}}
+\index{LQuestion@{LQuestion}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{LQuestion()}{LQuestion()}}
+{\footnotesize\ttfamily LQuestion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00147}{147}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a37be7a9a089bac1b88fcc7cdf3226ecd}\label{form_8php_a37be7a9a089bac1b88fcc7cdf3226ecd}} 
+\index{form.php@{form.php}!NQuestion@{NQuestion}}
+\index{NQuestion@{NQuestion}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{NQuestion()}{NQuestion()}}
+{\footnotesize\ttfamily NQuestion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00135}{135}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_accc5e75de79ef0d48b7c63981f6a12d5}\label{form_8php_accc5e75de79ef0d48b7c63981f6a12d5}} 
+\index{form.php@{form.php}!PlaceTestName@{PlaceTestName}}
+\index{PlaceTestName@{PlaceTestName}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{PlaceTestName()}{PlaceTestName()}}
+{\footnotesize\ttfamily Place\+Test\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00173}{173}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a19b52921e0a3554d6c30b4874bd47f05}\label{form_8php_a19b52921e0a3554d6c30b4874bd47f05}} 
+\index{form.php@{form.php}!ResetWebpage@{ResetWebpage}}
+\index{ResetWebpage@{ResetWebpage}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{ResetWebpage()}{ResetWebpage()}}
+{\footnotesize\ttfamily Reset\+Webpage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00167}{167}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_ae8d0d6edc9d9530c182fc9b45bbdbab7}\label{form_8php_ae8d0d6edc9d9530c182fc9b45bbdbab7}} 
+\index{form.php@{form.php}!SetOption@{SetOption}}
+\index{SetOption@{SetOption}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{SetOption()}{SetOption()}}
+{\footnotesize\ttfamily async Set\+Option (\begin{DoxyParamCaption}\item[{index1}]{,  }\item[{index2}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00157}{157}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{form_8php_afce321e6f53c241037f871b50680cf1c}\label{form_8php_afce321e6f53c241037f871b50680cf1c}} 
+\index{form.php@{form.php}!\$api@{\$api}}
+\index{\$api@{\$api}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{\$api}{$api}}
+{\footnotesize\ttfamily \$api = new \mbox{\hyperlink{class_cronotype_a_p_i}{Cronotype\+API}}()}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00003}{3}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a23e53dfd2b001b81c9946fa05ec90e6f}\label{form_8php_a23e53dfd2b001b81c9946fa05ec90e6f}} 
+\index{form.php@{form.php}!\$index@{\$index}}
+\index{\$index@{\$index}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{\$index}{$index}}
+{\footnotesize\ttfamily \$index = 0}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00010}{10}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a4149429f9ce3abbd81fc852d5aca2e67}\label{form_8php_a4149429f9ce3abbd81fc852d5aca2e67}} 
+\index{form.php@{form.php}!\$questionListSize@{\$questionListSize}}
+\index{\$questionListSize@{\$questionListSize}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{\$questionListSize}{$questionListSize}}
+{\footnotesize\ttfamily \$question\+List\+Size = \$api-\/$>$Get\+Max\+Question\+Number()}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00008}{8}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a371f2d425321fa0b78000f18261ec866}\label{form_8php_a371f2d425321fa0b78000f18261ec866}} 
+\index{form.php@{form.php}!\$questionsArray@{\$questionsArray}}
+\index{\$questionsArray@{\$questionsArray}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{\$questionsArray}{$questionsArray}}
+{\footnotesize\ttfamily \$questions\+Array = \$api-\/$>$Get\+Questions\+Array()}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00006}{6}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a3e5df96978e86d1151f35216c008d5e1}\label{form_8php_a3e5df96978e86d1151f35216c008d5e1}} 
+\index{form.php@{form.php}!\$responseArray@{\$responseArray}}
+\index{\$responseArray@{\$responseArray}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{\$responseArray}{$responseArray}}
+{\footnotesize\ttfamily \$response\+Array = \$api-\/$>$Get\+Responses\+Array()}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00007}{7}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_af594986e4618a8d6a5d7566617f583c6}\label{form_8php_af594986e4618a8d6a5d7566617f583c6}} 
+\index{form.php@{form.php}!\$size@{\$size}}
+\index{\$size@{\$size}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{\$size}{$size}}
+{\footnotesize\ttfamily \$size = sizeof(\$questions\+Array)}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00011}{11}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_abc1ace7eb5498edfacde726fa5e3901a}\label{form_8php_abc1ace7eb5498edfacde726fa5e3901a}} 
+\index{form.php@{form.php}!\_index2@{\_index2}}
+\index{\_index2@{\_index2}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{\_index2}{\_index2}}
+{\footnotesize\ttfamily \+\_\+index2}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ var\ checkItem\ =\ document.getElementById(\textcolor{stringliteral}{"{}label"{}}\ +\ String(\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\_index2}}))}
+
+\end{DoxyCode}
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00083}{83}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a6149b196784ea6cc1b19d0b4d8521a78}\label{form_8php_a6149b196784ea6cc1b19d0b4d8521a78}} 
+\index{form.php@{form.php}!checked@{checked}}
+\index{checked@{checked}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{checked}{checked}}
+{\footnotesize\ttfamily if (responses\+From\+Test\mbox{[}\+\_\+index\mbox{]} !=null) \mbox{\hyperlink{form_8php_a18fb1fd297a80c7e3732f0dbe18354c4}{else}} \mbox{\hyperlink{form_8php_a9a2dc022bbad987486d73631ac8a525a}{response\+Check}} checked = false}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00128}{128}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_ad435b96759e032fd2fdd447d13ce5d85}\label{form_8php_ad435b96759e032fd2fdd447d13ce5d85}} 
+\index{form.php@{form.php}!checkElement@{checkElement}}
+\index{checkElement@{checkElement}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{checkElement}{checkElement}}
+{\footnotesize\ttfamily check\+Element = document.\+get\+Element\+By\+Id(\char`\"{}res\char`\"{} + String(\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}))}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00086}{86}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_ac81a667efb65229d1fdf7c874a7c373f}\label{form_8php_ac81a667efb65229d1fdf7c874a7c373f}} 
+\index{form.php@{form.php}!display@{display}}
+\index{display@{display}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{display}{display}}
+{\footnotesize\ttfamily check\+Item style display = \char`\"{}\char`\"{}}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00100}{100}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a18fb1fd297a80c7e3732f0dbe18354c4}\label{form_8php_a18fb1fd297a80c7e3732f0dbe18354c4}} 
+\index{form.php@{form.php}!else@{else}}
+\index{else@{else}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{else}{else}}
+{\footnotesize\ttfamily if (responses\+Array\+Data\mbox{[}\+\_\+index\mbox{]}\mbox{[}\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}\mbox{]}==null) else}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{form_8php_ad435b96759e032fd2fdd447d13ce5d85}{checkElement}}.style.display\ =\ \textcolor{stringliteral}{"{}"{}}}
+
+\end{DoxyCode}
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00108}{108}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_af016dedd206ffd9b538f66adc17b412b}\label{form_8php_af016dedd206ffd9b538f66adc17b412b}} 
+\index{form.php@{form.php}!foreach@{foreach}}
+\index{foreach@{foreach}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{foreach}{foreach}}
+{\footnotesize\ttfamily for(\$i=0; \$i$<$=\$size-\/1 ; \$i++) foreach(\$questions\+Array as \$question) (\begin{DoxyParamCaption}\item[{}]{\$questions\+Array as }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00027}{27}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_afa9cdaf8f3e9a7f4da05a90584be63e2}\label{form_8php_afa9cdaf8f3e9a7f4da05a90584be63e2}} 
+\index{form.php@{form.php}!innerHTML@{innerHTML}}
+\index{innerHTML@{innerHTML}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{innerHTML}{innerHTML}}
+{\footnotesize\ttfamily \mbox{\hyperlink{form_8php_a8ab7bcb35ce5bba05608c72da6b4a0d3}{response}} inner\+HTML = responses\+Array\+Data\mbox{[}\+\_\+index\mbox{]}\mbox{[}\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}\mbox{]}}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00115}{115}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a8ab7bcb35ce5bba05608c72da6b4a0d3}\label{form_8php_a8ab7bcb35ce5bba05608c72da6b4a0d3}} 
+\index{form.php@{form.php}!response@{response}}
+\index{response@{response}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{response}{response}}
+{\footnotesize\ttfamily response = document.\+get\+Element\+By\+Id(\char`\"{}response\char`\"{} + String(\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}))}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00087}{87}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_a9a2dc022bbad987486d73631ac8a525a}\label{form_8php_a9a2dc022bbad987486d73631ac8a525a}} 
+\index{form.php@{form.php}!responseCheck@{responseCheck}}
+\index{responseCheck@{responseCheck}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{responseCheck}{responseCheck}}
+{\footnotesize\ttfamily response\+Check = document.\+get\+Element\+By\+Id(\char`\"{}res\char`\"{} + String(\mbox{\hyperlink{form_8php_abc1ace7eb5498edfacde726fa5e3901a}{\+\_\+index2}}))}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00117}{117}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
+\mbox{\Hypertarget{form_8php_ae889eab876e09debc6c59c0e8e7d9061}\label{form_8php_ae889eab876e09debc6c59c0e8e7d9061}} 
+\index{form.php@{form.php}!responsesData@{responsesData}}
+\index{responsesData@{responsesData}!form.php@{form.php}}
+\doxysubsubsection{\texorpdfstring{responsesData}{responsesData}}
+{\footnotesize\ttfamily \$api responses\+Data = new \mbox{\hyperlink{class_responses_data}{Responses\+Data}}()}
+
+
+
+Definition at line \mbox{\hyperlink{form_8php_source_l00005}{5}} of file \mbox{\hyperlink{form_8php_source}{form.\+php}}.
+
