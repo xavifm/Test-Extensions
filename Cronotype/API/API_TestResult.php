@@ -3,6 +3,7 @@
 
     class TestResult 
     {
+        //ReturnResponseTextArray returns the JSON text for every test result, stored inside the json as an array called: ResultText, returns an string array
         public function ReturnResponseTextArray() 
         {
             $jsonFile = file_get_contents('Questionary.json', true);
@@ -23,6 +24,7 @@
             return "ERROR!!!!!";
         }
         
+        //ReturnBiggestResult sorts your test scores from smallest to biggest, and returns the highest score element as the test result string stored inside the JSON file
         public function ReturnBiggestResult($_pointsListArray) 
         {
             $elementsList = $_pointsListArray;
@@ -54,6 +56,7 @@
             return "ERROR!!!!!";
         }
 
+        //ReturnBiggestResult starts building your test result points list for every test result element and calls the ReturnBiggestResult to returen the test result
         public function CalculateResult($responsesData, $pointsList) 
         {
             $pointsListArray = array();
