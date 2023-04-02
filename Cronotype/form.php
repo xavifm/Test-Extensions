@@ -143,7 +143,7 @@
                 alert("Falta responder esta pregunta!")
         }
 
-        //NQuestion will show the test last question
+        //LQuestion will show the test last question
         function LQuestion() 
         {
             if(questionsIndex > 0) 

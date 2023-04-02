@@ -23,6 +23,7 @@
 
         <?php
 
+        //In this region we store all the questions and responses from the test from php to javascript
         foreach($questionsArray as $question) 
         {
             ?>  
@@ -61,6 +62,7 @@
        document.getElementById("questionsSize").innerHTML = questionsArrayData.length-1;
        ShowQuestion(questionsIndex);
 
+       //Function to display the test question
        function ShowQuestion(_index) 
        {
             document.getElementById("indexQuestion").innerHTML = _index;
@@ -129,6 +131,7 @@
 
         }
         
+        //NQuestion will show the test next question
         function NQuestion() 
         {
             if(responsesFromTest[questionsIndex] != null && questionsIndex < <?php echo $size+1 ?>) 
@@ -140,6 +143,7 @@
                 alert("Falta responder esta pregunta!")
         }
 
+        //LQuestion will show the test last question
         function LQuestion() 
         {
             if(questionsIndex > 0) 
@@ -149,6 +153,7 @@
             }
         }
 
+        //SetOption is used to store every question response from the test, index1 represents the question index and index2 represents the response index
         async function SetOption(index1, index2) 
         {
             console.log(responsesArrayData[index1][index2]);
@@ -158,11 +163,13 @@
             NQuestion();
         }
 
+        //ResetWebpage is used to reset the questionary when is finished
         function ResetWebpage() 
         {
             window.location.reload();
         }
 
+        //PlaceTestName gets the JSON test name from config and place it to the frontend, it is also called inside the BuildTest function
         function PlaceTestName() 
         {
             $.ajax({
@@ -178,12 +185,14 @@
             });
         }
 
+        //BuildTest starts building the questionary to the frontend by html injection
         function BuildTest() 
         {
             PlaceTestName();
             BuildQuestionary();
         }
 
+        //GetOutput calls que AJAX function GetTestResult to calculate all the text and return the test result string stored inside the JSON file, it also checks that all the questions be filled
         function GetOutput() 
         {
             for(var index = 0 ; index < <?php echo $size - 2 ?> ; index++)
@@ -209,6 +218,7 @@
 
         }
 
+        //BuildQuestionary place the questionary html injection to the frontend
         function BuildQuestionary() 
         {
             var html = '';

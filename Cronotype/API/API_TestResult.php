@@ -56,7 +56,7 @@
             return "ERROR!!!!!";
         }
 
-        //ReturnBiggestResult starts building your test result points list for every test result element and calls the ReturnBiggestResult to returen the test result
+        //CalculateResult starts building your test result points list for every test result element and calls the ReturnBiggestResult to return the test result
         public function CalculateResult($responsesData, $pointsList) 
         {
             $pointsListArray = array();

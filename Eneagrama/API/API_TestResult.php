@@ -3,6 +3,7 @@
 
     class TestResult 
     {
+        //ReturnResponseTextArray returns the JSON text for every test result, stored inside the json as an array called: ResultText, returns an string array
         public function ReturnResponseTextArray() 
         {
             $jsonFile = file_get_contents('Questionary.json', true);
@@ -23,6 +24,7 @@
             return "ERROR!!!!!";
         }
 
+        //CheckDraw is used to check if the test received two elements with the same score being the highest score, in case of being true, we return true, instead we return false
         public function CheckDraw($_points, $_higherPoints) 
         {
             $index1 = 0;
@@ -44,6 +46,7 @@
             return false;
         }
         
+        //ReturnBiggestResult starts building your test result points list for every test result element and calls the ReturnBiggestResult to return the test result
         public function ReturnBiggestResult($_pointsListArray) 
         {
             $elementsList = $_pointsListArray;
@@ -78,6 +81,7 @@
             return "ERROR!!!!!";
         }
 
+        //CalculateResult starts building your test result points list for every test result element and calls the ReturnBiggestResult to return the test result
         public function CalculateResult($responsesData, $pointsList) 
         {
             $pointsListArray = array();
